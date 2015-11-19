@@ -41,7 +41,7 @@ body{background: none;}
 	.cjoMainInfoThisNotThatImage{width: 330px; /*height: 130px*/; position: absolute; right: 0px; top: 50%; margin-top: -175px;}
 			
 	#cjoBimTowerContainer{padding-top: 120px; padding-bottom: 120px;}
-	.cjoBimTowerImage{width: 400px;}
+	.cjoBimTowerImage{width: 600px;}
 		
 	p > br{display: none;}
 	.cjoStandardHalfContent{margin-bottom: 0px;}
@@ -52,7 +52,7 @@ body{background: none;}
 	#cjoLittleBlueBanner{width: 300px;}
 	.cjoNotepadImage{top: 50px; margin-top: 0px;}
 			
-	.cjoCarouselImageExpanded{width: 450px; margin-left: -225px;}
+	.cjoCarouselImageExpanded{width: 450px; margin-left: -225px; top: -185px;}
 
 	.cjoCircleContainer{display: block;}
 }
@@ -72,4 +72,5 @@ body{background: none;}
 	.cjoContentImage{margin-right: 100px;}
 	.cjoContentText{max-width: 350px; margin-left: 100px;}
 	.cjoInternalLinkContainer{padding-top: 20px;}
+	.cjoBimTowerImage{width: 900px;}
 }
