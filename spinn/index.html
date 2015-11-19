@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Spinn</title>
+
+<!-- Use these four includes on your pages under <head> section -->
+
+
+	<script type="text/javascript" src="Publish/imagerotator/html/js/jquery-1.7.1.min.js"></script>
+
+	<link type="text/css" rel="stylesheet" href="Publish/imagerotator/html/css/thin.css"/>
+	<script type="text/javascript" src="Publish/imagerotator/html/js/swfobject.js"></script>
+	<script type="text/javascript" src="Publish/imagerotator/html/js/imagerotator.js"></script>
+	<link rel="shortcut icon" href="favicon.png" type="image/png">
+
+<style type= "text/css">
+*{margin: 0; padding: 0;}
+body
+{
+	font-size: 14px;
+	font-family: Calibri, sans-serif;
+    color       : #464646;
+}
+
+
+.cjoHeaderImage{width: 250px; display: block; margin-left: auto; margin-right: auto; margin-top: 50px; margin-bottom: 50px;}
+.cjoMainContainer{position: relative; margin-bottom: 60px; }
+
+
+/*-- Use #content CSS to customize size, position, border, etc of your 360 view --*/
+
+#content
+{
+    margin-left: auto; margin-right: auto; text-align: center;
+    width       : 200px;
+    height      : 150px;
+    border      : none;
+}
+#wr360container{margin-left: auto; margin-right: auto;}
+
+.cjoSwapButton{width: 10px; position: absolute; top: 50px; color: #fff; padding: 5px; cursor: pointer; }
+#cjoPrevButton{right: 50%; margin-right: 100px;}
+#cjoNextButton{left: 50%; margin-left: 100px;}
+
+.cjoText{width: 100%; max-width: 320px; padding-left: 10px; padding-right: 10px; margin-left: auto; margin-right: auto; box-sizing: border-box; color: #999;}
+.cjoText1{font-size: 90%; text-align: center; margin-bottom: 40px;}
+.cjoText2{font-size: 90%; text-align: left; margin-bottom: 40px;}
+.cjoText3{font-size: 110%; text-align: center;}
+
+.cjoContact{width: 100%; max-width: 320px; margin-top: 50px; color: #999; margin-left: auto; margin-right: auto;}
+.cjoContactTitle{width: 100%; text-align: left; margin-bottom: 7px; font-size: 140%; padding-left: 23px;}
+.cjoContactInfo{width: 50%; display: inline-block; box-sizing: border-box; margin: 0; text-align: center;}
+
+.cjoFooter{background-color: #f2f2f2; color: #999; width: 100%; margin-top: 50px;}
+.cjoFooterInner{width: 100%; margin-left: auto; margin-right: auto; position: relative; min-height: 100px;}
+.cjoFooterLogo{width: 30%; max-width: 100px; position: absolute; left: 20px; top: 10px;}
+.cjoFooterSocial{width: 30%; max-width: 100px; position: absolute; right: 20px; top: 10px;}
+.cjoFooterSocialIcon{width: 25%; margin-right: 1%; margin-left: 1%;}
+.cjoFooterCopyright{width: 100%; text-align: center; position: absolute; top: 70px;}
+
+@media screen and (min-width: 768px)
+{
+	.cjoHeaderImage{width: 600px;}
+
+	#content{width: 600px; height: 450px;}
+	.cjoSwapButton{width: 20px; top: 200px;}
+	#cjoPrevButton{margin-right: 300px;}
+	#cjoNextButton{margin-left: 300px;}
+	
+	.cjoText{max-width: 750px;}
+	.cjoText1{font-size: 150%; text-align: center; margin-bottom: 100px;}
+	.cjoText2{font-size: 150%; text-align: left; margin-bottom: 100px;}
+	.cjoText3{font-size: 200%; text-align: center;}
+	
+	.cjoFooterInner{width: 750px; min-height: 60px;}
+	.cjoFooterSocial{width: 20%; max-width: initial;}
+	.cjoFooterCopyright{top: 30px;}
+}
+
+@media screen and (min-width: 992px)
+{
+	#content{width: 800px; height: 600px;}
+	
+	.cjoSwapButton{top: 250px;}
+	#cjoPrevButton{margin-right: 400px;}
+	#cjoNextButton{margin-left: 400px;}
+}
+
+
+
+</style>
+
+</head>
+
+
+<body>
+
+<img class="cjoHeaderImage" src="images/360Spinn.png">
+<div class="cjoMainContainer">
+
+	<img class="cjoSwapButton" id="cjoPrevButton" src="images/icons/tri_left.png">
+
+	<img class="cjoSwapButton" id="cjoNextButton" src="images/icons/tri_right.png">
+
+<!--
+    Just copy / paste the content div below onto your page and define its style.
+    Then set configFileURL below to point to your product configuration XML.
+-->
+
+
+	<div id="content">
+
+		<div id="wr360PlayerId" class="wr360_player" data-configFile="Publish/360_assets/Mailbox/mailbox.xml">
+		</div>
+
+		<script language="javascript" type="text/javascript">
+
+			_imageRotator.settings.jsScriptOnly   = true;
+			_imageRotator.settings.swfFileURL     = "Publish/imagerotator/imagerotator.swf";
+			_imageRotator.settings.configFileURL  = "Publish/360_assets/Mailbox/mailbox.xml";
+			_imageRotator.settings.graphicsPath   = "Publish/imagerotator/html/img/thin";
+
+			// If you are using Flash mode and have issues with overlapping menus,
+			// uncomment this line below and set it to true
+			// _imageRotator.settings.flybyJsMenuFix = true;
+
+			// If you need to translate or change toolbar tooltips, uncomment these lines
+			// _imageRotator.settings.i18n.zoomButtonsTooltip = "??";
+			// _imageRotator.settings.i18n.hotspotButtonTooltip = "??";
+			// _imageRotator.settings.i18n.fullScreenButtonTooltip = "??";
+			// _imageRotator.settings.i18n.togglePlayButtonTooltip = "??";
+			// _imageRotator.settings.i18n.arrowLeftButtonTooltip = "??";
+			// _imageRotator.settings.i18n.arrowRightButtonTooltip = "??";
+
+			// Specify these three values if you are loading viewer inside an HTML
+			// element that may not be visible (display:none) when viewer starts loading (hidden tabs, js lightboxs, etc)
+			// this.viewWidthJQFix    = ??;
+			// this.viewHeightJQFix   = ??;
+			// this.toolbarWidthJQFix = ??;
+
+
+			_imageRotator.runImageRotator("wr360PlayerId");
+
+		</script>
+
+	</div>
+</div>
+
+
+<div class="cjoText cjoText1">
+	360 VIEWER<br>
+	Show your product in a complete 360 degrees.
+</div>
+<div class="cjoText cjoText2">
+	Allow customers to virtually see 360 degrees of your product with 360 Spinn. With the technology used for 360 SPINN’s you can now go above and beyond the viewer’s normal shopping experience like never before.
+</div>
+<div class="cjoText cjoText3">CHANGE YOUR POINT OF VIEW</div>
+
+<div class="cjoContact">
+	<div class="cjoContactTitle">CONTACT</div>
+	<div class="cjoContactInfo">info@anguleris.com</div><div class="cjoContactInfo">1(224)484-8896</div>
+</div>
+
+<div class="cjoFooter">
+	<div class="cjoFooterInner">
+		<img class="cjoFooterLogo" src="images/anguleris.png">
+		<div class="cjoFooterSocial">
+			<a href="https://www.facebook.com/Anguleris" target="_blank"><img class="cjoFooterSocialIcon" src="images/social/fb.png"></a>
+			<a href="https://www.linkedin.com/company/anguleris-technologies" target="_blank"><img class="cjoFooterSocialIcon" src="images/social/link.png"></a>
+			<a href="https://twitter.com/anguleris" target="_blank"><img class="cjoFooterSocialIcon" src="images/social/tw.png"></a>
+		</div>
+		<div class="cjoFooterCopyright">©2015 Anguleris Technologies</div>
+	</div>
+</div>
+
+<script>
+	var screenSize = window.innerWidth;//initialize screensize
+	var currentSpinn = 0;
+	var numberOfSpinns = 2;
+	var configFiles = ["Publish/360_assets/Mailbox/mailbox.xml", "Blender/360_assets/Blender Red/blender.xml"];
+	var filePaths = ["Publish/imagerotator/html/img/thin", "Blender/imagerotator/html/img/thin"];
+	
+	$(document).ready(
+		function()
+		{
+			$(window).resize(
+				function()
+				{
+					//window.alert("Old: " + screenSize + " New: " + window.innerWidth);
+					
+					if(crossedBreakpoint(screenSize, window.innerWidth))
+					{	
+						console.log("Breakpoint crossed");
+						_imageRotator.reload(configFiles[currentSpinn], filePaths[currentSpinn]);
+					}
+					screenSize = window.innerWidth;
+				}
+			);
+			
+			$("#cjoNextButton").click(
+				function()
+				{
+					currentSpinn++;
+					if(currentSpinn >= numberOfSpinns)
+					{
+						currentSpinn = 0;
+					}
+					_imageRotator.reload(configFiles[currentSpinn], filePaths[currentSpinn]);
+				}
+			);
+			
+			$("#cjoPrevButton").click(
+				function()
+				{
+					currentSpinn--;
+					if(currentSpinn < 0)
+					{
+						currentSpinn = numberOfSpinns - 1;
+					}
+					_imageRotator.reload(configFiles[currentSpinn], filePaths[currentSpinn]);
+				}
+			);
+		}
+	
+	);
+	
+	function crossedBreakpoint(oldWidth, newWidth)
+	{
+		if(oldWidth < 768 && newWidth >= 768)
+			return true;
+		if(oldWidth >= 768 && newWidth < 768)
+			return true;
+		if(oldWidth < 992 && newWidth >= 992)
+			return true;
+		if(oldWidth >= 992 && newWidth < 992)
+			return true;
+			
+		return false;
+	}
+	
+</script>
+
+
+</body>
+
+</html>

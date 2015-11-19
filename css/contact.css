@@ -1,0 +1,118 @@
+
+	
+body{background: none; color: #fff;}
+		
+.cjoPopupForm{top: 20px;     font-size: 87.5%;}
+#cjoPopupFormStep2Button{width: 49%; right:-3px;}
+.cjoNoPadding{padding-left: 0px; padding-right: 0px;}
+.cjoContainer1{text-align: center; position: relative; padding-top: 150px; padding-bottom: 50px; background-image: url("../images/background/contact_background_mobile.jpg"); background-size: cover; background-position: center center;}
+		
+.cjoContactInfoColumn{margin-bottom: 100px;}
+.cjoContactHeader{width: 100%; text-align: center; font-size: 220%; margin-bottom: 40px;}
+.cjoContactTable{width: 100%; max-width: 320px; margin-bottom: 90px; margin-left: auto; margin-right: auto;}
+.cjoPhoneIcon{width: 40px;}
+.cjoEmailIcon{width: 50px;}
+.cjoPhoneCell{width: 50%; text-align: center; vertical-align: bottom;}
+.cjoEmailCell{width: 50%; text-align: center; vertical-align: bottom;}
+		
+.cjoContactSocialMediaTable{margin-top: 20px; margin-bottom: 20px;}
+.cjoContactSocialMediaLink{width: 30px; margin-left: 3px; margin-right: 3px;}
+		
+.cjoContactHeader2{width: 100%; text-align: center; font-size: 190%;}
+.cjoMailingListInput{color: #666; width: 256px; margin-top: 5px; height: 30px; font-size: 120%; padding-left: 5px;}
+.cjoMailingListButton{border-radius: 0px; background-color: #7CCFD7; margin-top: 30px; font-size: 150%; padding-top: 0px; padding-bottom: 0px;} 
+
+.cjoBlueContainer{background-color: #7CCFD7; color: #fff; text-align: left; font-size: 120%; padding-top: 120px; padding-bottom: 120px;}
+.cjoBlueInnerCont{padding-top: 0px; padding-left: 20px; padding-right: 20px;}
+.cjoBlueHeader{width: 100%; text-align: center; font-size: 150%;}
+		
+.cjoTeamPhotoContainer{height: 200px; background-image: url("../images/background/angulerisTeam.jpg"); background-size: cover; background-position: center bottom;}
+		
+.cjoContainer3{padding-top: 120px; padding-bottom: 120px; padding-left: 20px; text-align: left; background-image: url("../images/background/contact2_mobile.jpg"); background-position: center center; background-size: cover;}
+.cjoContainer3Header{width: 100%; font-size: 150%; text-align: center; color: #fff;}
+.cjoContainer3GrayBox{width: 90%; color: #fff; margin-left: auto; margin-right: auto; background-color: rgba(100, 100, 100, 0.5); padding: 10px;}
+.cjoContainer3Text{text-align: left; font-size: 120%;}
+
+.cjoStatsContainer{background-color: #eee; padding-top: 50px; padding-bottom: 100px; padding-right: 20px; padding-left: 20px;}
+.cjoStatsMainHeader{color: #7CCFD7; font-size: 140%; width: 100%; text-align: center;}
+.cjoStatsMainSubHeader{color: #999; font-size: 100%; width: 100%; text-align: center; margin-bottom: 30px;}
+.cjoStatsOuterBox{padding: 5px;}
+.cjoStatsInnerBox{background-color: #7CCFD7; padding: 10px; width: 120px;}
+.cjoStatsLeft{margin-right: 0px; margin-left: auto;}
+.cjoStatsRight{margin-left: 0px; margin-right: auto;}
+.cjoStatsBoxHeader{width: 100%; text-align: center; margin-bottom: 10px;}
+.cjoStatsBoxNumber{width: 100%; text-align: center; font-size: 400%;}
+.WATERMELON{width: 60%; display: block; margin-left: auto; margin-right: auto;}
+.cjoStatBoxEight{padding-bottom: 5px; padding-top: 5px; padding-left: 5px; padding-right: 5px;}
+.cjoStatBoxImage{width: 100%; display: block; margin-left: auto; margin-right: auto;}
+		
+.cjoResourcesContainer{padding-top: 40px; padding-bottom: 70px;}
+.cjoResourcesTitle{color: #7CCFD7; font-size: 140%; width: 100%; text-align: center; margin-bottom: 20px;}
+.cjoResourcesText{color: #999; width: 200px; text-align: left; margin-left: auto; margin-right: auto;}
+	
+#cjoLittleBlueBanner{/*background-color: #fff;*/ width: 200px; margin-left: auto; margin-right: auto; /*color: #7CCFD7;*/ text-align: center; margin-top: 30px;}
+#cjoBlogComingSoon{background-image: url("../images/background/header_desktop.jpg"); height: 200px;}
+		
+@media screen and (min-width: 768px)
+{
+	.cjoContainer1{background-image: url("../images/background/contact_desktop_background.png")}
+	.cjoContactInfoColumn{padding-top: 60px; padding-bottom: 60px;}
+	.cjoMailingListColumn{padding-top: 60px;}
+		
+	.cjoBlueContainer{font-size: 160%; padding-top: 100px; padding-bottom: 100px;}
+	.cjoBlueInnerCont, .cjoContainer3Text{padding-left: 100px; padding-right: 100px;}
+	
+	.cjoTeamPhotoContainer{height: 400px;}
+	
+	.cjoContainer3{padding-right: 0px; padding-top: 100px; padding-bottom: 100px; background-image: url("../images/background/contact2.jpg");}
+	.cjoContainer3GrayBox{margin-right: 0px; padding-left: 20px; padding-right: 10%; padding-top: 50px; padding-bottom: 50px;}
+	.cjoContainer3Text{font-size: 160%;}
+		
+	.cjoStatsContainer{padding-left: 0px; padding-right: 0px;}
+	.cjoStatsMainHeader{font-size: 200%;}
+	.cjoStatsMainSubHeader{font-size: 150%;}
+	.cjoStatsInnerBox{width: 160px;}
+	.cjoStatsLeft{margin-right: auto;}
+	.cjoStatsRight{margin-left: auto;}
+			
+	.cjoResourcesContainer{font-size: 150%;}
+	.cjoResourcesText{width: 300px;}
+
+	#cjoPopupFormStep2Button{right: -6px;}
+
+	.cjoPopupForm{top: 150px;
+}
+		
+@media screen and (min-width: 992px)
+{
+	.cjoContainer3GrayBox{height: 300px;}
+	.cjoContainer3Text{}
+	
+	.cjoStatsInnerBox{width: 190px;}
+	.cjoStatsBoxHeader{margin-bottom: 30px;}
+
+	.cjoPopupForm{top: 150px;}
+}
+		
+@media screen and (min-width: 1200px)
+{
+	.cjoContainer3Text{}
+
+	.cjoBlueInnerCont, .cjoContainer3Text{padding-left: 150px; padding-right: 150px;}
+	
+	.cjoTeamPhotoContainer{height: 600px;}
+}
+		
+@media screen and (min-width: 2200px)
+{
+	.cjoTeamPhotoContainer{height: 800px; background-image: url("../images/background/angulerisTeamBIG.jpg");}
+}
+@media screen and (min-width: 992px) and (max-width: 1199px) and (min-height: 2443px)
+{
+	.cjoFooterContainer{position: fixed; bottom: 0px; width: 100%;}
+}
+		
+@media screen and (min-width: 1200px) and (min-height: 2500px)
+{
+	.cjoFooterContainer{position: fixed; bottom: 0px; width: 100%;}
+}

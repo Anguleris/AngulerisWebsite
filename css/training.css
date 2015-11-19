@@ -1,0 +1,74 @@
+@import url("http://fast.fonts.net/t/1.css?apiType=css&projectid=4a3a4a75-529c-4464-b982-58cd2747c630");
+@font-face{
+	font-family:"Calibri W02 Light";
+	src:url("Fonts/43fffff2-e1f8-48d7-a7b3-1424675306ac.eot?#iefix");
+	src:url("Fonts/43fffff2-e1f8-48d7-a7b3-1424675306ac.eot?#iefix") format("eot"),url("Fonts/0243429e-494c-4145-9cde-079c0a716390.woff2") format("woff2"),url("Fonts/c9e4b93e-12ea-4d36-959b-ca784281b056.woff") format("woff"),url("Fonts/d09d3848-2f3a-46f2-b136-145d45a35b0c.ttf") format("truetype"),url("Fonts/2d5d393f-6688-4c82-817f-657e30ca589e.svg#2d5d393f-6688-4c82-817f-657e30ca589e") format("svg");
+}
+@font-face{
+	font-family:"Calibri W01 Regular_904604";
+	src:url("Fonts/d4acc8cd-67f2-4139-80be-d669bb2564d7.eot?#iefix");
+	src:url("Fonts/d4acc8cd-67f2-4139-80be-d669bb2564d7.eot?#iefix") format("eot"),url("Fonts/367341fc-4cc6-4a79-89ad-d6c61561611e.woff2") format("woff2"),url("Fonts/1ff86dd4-d3b2-4325-89bc-c6eb493cedba.woff") format("woff"),url("Fonts/aa6b4b64-5ce0-48fd-887a-bece037cd9c9.ttf") format("truetype"),url("Fonts/59b6060c-d311-413e-b351-d79aaf982f7a.svg#59b6060c-d311-413e-b351-d79aaf982f7a") format("svg");
+	}
+	
+body{background: none; font-family: "Calibri W02 Light", Calibri, sans-serif;}
+#cjoMainContainer{background-image: url("../images/background/training.png"); background-size: cover; background-position: center center; padding-top: 300px;}
+
+.cjoMainInfoTri{background-color: #fff; color: #999; padding-top: 40px; padding-bottom: 40px;}
+.cjoMainInfoTextBlockTri{padding-left: 40px; padding-right: 40px;}
+.cjoMainInfoTriTitle{color: #7CCFD7;    padding-top:40px;}
+
+.cjoPageMainTitleText{padding-top: 50px;}
+.cjoPageMainSubtitleText{margin-bottom: 100px;}
+		
+.cjoBubbleContainer{background-color: #fff; color: #999; font-size: 200%;}
+.cjoBubbleContainerInner{padding-left: 40px; padding-right: 40px; padding-top: 50px; padding-bottom: 0px;}
+.cjoBubble1{width: 80%; display: block; margin-left: auto; margin-right: auto;}
+.cjoBubble2{width: 60%; display: block; margin-left: auto; margin-right: auto; position: relative; right: -50px; top: -70px;}
+		
+.cjoTrainingHeader{color: #7CCFD7; font-size: 200%; text-align: center; width: 100%; margin-top: 50px;}
+.cjoTrainingText{width: 100%; text-align: left; color: #999; padding-left: 10px; padding-right: 10px; margin-top: 20px;}
+.cjoLittleBlueBanner{cursor: pointer; background-color: #7CCFD7; color: #fff; margin-left: auto; margin-right: auto; text-align: center; font-size: 130%; margin-top: 0px; margin-bottom: 100px; padding-top: 10px; padding-bottom: 10px; position: relative; z-index: 10;}
+
+
+#cjoButton{padding:10px; margin-left:auto; margin-right:auto;  display:block; width:230px;}
+
+
+#cjoRevitTrainingBox{margin-bottom: 200px;}
+#cjoRevitTrainingText{margin-bottom: -120px;}
+#cjoAppleImage{bottom: -125px;}
+@media screen and (min-width: 768px)
+{
+	.cjoMainInfoTri{background-color: #999; color: #fff;}
+	.cjoMainInfoTriTitle{color: #fff;}
+			
+	.cjoBubbleContainerInner{position: relative; padding-bottom: 250px;}
+	.cjoBubble1{width: 350px; position: absolute; left: 50px; top: 100px;}
+	.cjoBubble2{width: 250px; position: absolute; right: 50px; top: 100px;}
+		
+	.cjoLittleBlueBanner{margin-bottom: 60px; margin-top:50px;}
+	.cjoTrainingText > br{display: none;}
+
+	#cjoButton{padding-left: 20px; padding-right: 20px; width:300px;}
+
+	#cjoRevitTrainingText{margin-bottom: 0px;}
+}
+		
+
+		
+@media screen and (min-width: 992px)
+{
+	.cjoMainInfoTri{font-size: 150%;}
+		
+	.cjoBubbleContainerInner{padding-bottom: 340px;}
+	.cjoBubble1{width: 450px;}
+	.cjoBubble2{width: 350px;}
+		
+	.cjoTrainingText{width: 70%; margin-left: auto; margin-right: auto;}
+}
+		
+@media screen and (min-width: 1200px)
+{
+	.cjoTrainingText{width: 820px;}
+	.cjoBubble1{left: 130px;}
+	.cjoBubble2{right:130px;}
+}

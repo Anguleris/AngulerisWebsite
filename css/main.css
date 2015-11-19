@@ -1,0 +1,199 @@
+@import url("http://fast.fonts.net/t/1.css?apiType=css&projectid=4a3a4a75-529c-4464-b982-58cd2747c630");
+@font-face{
+		font-family:"Calibri W02 Light";
+		src:url("../Fonts/43fffff2-e1f8-48d7-a7b3-1424675306ac.eot?#iefix");
+		src:url("../Fonts/43fffff2-e1f8-48d7-a7b3-1424675306ac.eot?#iefix") format("eot"),url("../Fonts/0243429e-494c-4145-9cde-079c0a716390.woff2") format("woff2"),url("../Fonts/c9e4b93e-12ea-4d36-959b-ca784281b056.woff") format("woff"),url("../Fonts/d09d3848-2f3a-46f2-b136-145d45a35b0c.ttf") format("truetype"),url("../Fonts/2d5d393f-6688-4c82-817f-657e30ca589e.svg#2d5d393f-6688-4c82-817f-657e30ca589e") format("svg");
+		}
+@font-face{
+		font-family:"Calibri W01 Regular_904604";
+		src:url("Fonts/d4acc8cd-67f2-4139-80be-d669bb2564d7.eot?#iefix");
+		src:url("Fonts/d4acc8cd-67f2-4139-80be-d669bb2564d7.eot?#iefix") format("eot"),url("Fonts/367341fc-4cc6-4a79-89ad-d6c61561611e.woff2") format("woff2"),url("Fonts/1ff86dd4-d3b2-4325-89bc-c6eb493cedba.woff") format("woff"),url("Fonts/aa6b4b64-5ce0-48fd-887a-bece037cd9c9.ttf") format("truetype"),url("Fonts/59b6060c-d311-413e-b351-d79aaf982f7a.svg#59b6060c-d311-413e-b351-d79aaf982f7a") format("svg");
+}
+
+*{padding: 0; margin: 0;}
+body{ font-family: "Calibri W02 Light", Calibri, sans-serif; overflow-x: hidden; position: relative; width: 100%; background-color: #000; background-image: url("../images/background/home.png"); background-attachment: fixed; background-position: center center; background-size: cover;}
+a:link{color: #999; text-decoration: none; outline: 0;}
+a:visited{color: #999; text-decoration: none;}
+a:hover{color: #999; text-decoration: none;}
+a:active{color: #999; text-decoration: none;}
+.cjoNoPadding{padding-left: 0px; padding-right: 0px;}
+.cjoStandardHalfContent{margin: 0; padding: 0;}
+.cjoBlackOverlay{display: none; position: fixed; top: 0px; left: 0px; width: 100%; height: 100%; z-index: 10000; background-color: #000; opacity: 0.3;}
+.cjoPopupForm{display: none; position: relative; top: -80px; margin-left: auto; margin-right: auto; width: 300px; overflow-y: auto; background-color: #eee; color: #999; font-size: 80%; padding-bottom: 20px;}
+input{background-color: #fff; color: #999; border: none;}
+.cjoPopupFormStepButton{border-radius: 0; border: none;   color:#EEE;background-color:#999; padding: 3px;}
+.cjoPopupFormInput{width: 100%; padding-left: 5px; margin-bottom: 15px;}
+.cjoPopupFormCheckbox{background-color: #fff; border: none;}
+.cjoPopupFormCheckboxSpan{width: 35%; display: inline-block;}
+.cjoPopupFormSelect{width: 100%;}
+.cjoPopupFormTextarea{width: 100%; margin-bottom: 10px; resize: none;}
+.cjoPopupFormName{width: 48%;}
+.cjoPopupFormPhoneNumber{width: 30%;}
+.cjoPopupFormAddressFull{width: 100%;}
+.cjoPopupFormAddressHalf{width: 49%;}
+.cjoRequiredAsterisk{color: #f00;}
+.cjoEmptyRequiredField{border: 1px solid red;}
+#cjoPopupButtonContainer{width:100%; background-color: #999;}
+#cjoPopupFormStep1Button{width:49%;}
+#cjoPopupFormStep2Button{ width:50%; position: relative; }
+#cjoCheckboxContainer{width: 100%; padding-bottom: 15px;}
+#cjoPopupFormStep1Tab, #cjoPopupFormStep2Tab{padding-left:30px; padding-right: 20px;}
+.cjoCurrentTab{background-color: #EEE; color:#999;}
+.cjoNoncurrentTab{background-color: #999; color:#EEE;}
+#cjoPopupRequiredField{width:100%; padding: 15px 30px;}
+#cjoPopupFormNextStepButton, #cjoFormSubmit{padding: 0px 10px; display: block; margin:auto;}
+#cjoFormNotes{margin-top:10px;}
+
+#cjoLittleBlueBanner{cursor: pointer; }
+.cjoFormInput{display: inline-block; text-align: right; padding-top: 0px; padding-left: 5px; padding-right: 5px; vertical-align: top;}
+
+
+#cjoHeader{width: 100%; height: 75px; background-color: #fff; position: fixed; z-index: 1000;}
+.cjoHeaderLogo{width: 170px; height: 35px; position: absolute; top: 50%; left: 20px; margin-top: -15px;}/*w:140 h:29*/
+.cjoHeaderMenuMobile{width: 28px; height: 21px; position: absolute; top: 50%; margin-top: -12px; right: 10px; cursor: pointer;}
+.cjoHeaderMenuButton{width: 32px;}
+.cjoHeaderLinkTable{display: none;}
+.cjoHeaderBottomRule{position: absolute; bottom: 0px; color: #eee; width: 100%; height: 1px; z-index: 2000; margin: 0; background-color: #eee;}
+
+.cjoInternalLinkHeaderMobileActivator{width: 100%; height: 20px; background-color: rgba(100, 100, 100, 0.5); position: fixed; top: 75px; z-index: 999; padding-top: 8px; cursor: pointer;}/*top50*/
+.cjoInternalLinkHeaderMobileActivatorLine{width: 20%; height: 5px; background-color: rgba(200, 200, 200, 0.5); margin-left: auto; margin-right: auto; border-radius: 2px;}
+.cjoInternalLinkHeader{width: 100%; height: 170px; background-color: rgba(100, 100, 100, 0.5); position: fixed; top: 70px; z-index: 999; display: none;}
+.cjoInternalLinkContainer{padding-top: 20px; padding-bottom: 20px; padding-left: 20px;}
+.cjoInternalLinkCell{text-align: left; padding: 0px 20px; padding-bottom: 10px;}
+
+#cjoMainContainer{padding-top: 200px; background-color: #000;}
+.cjoMainSubContainer{padding-right: 0px; padding-left: 0px;}
+#cjoHomePageTitleText{width: 100%; font-size: 150%; text-align: center; margin-bottom: 250px;}
+#cjoMobileDropdownMenu{width: 100%; height: auto; position: fixed; right: 0px; top: 50px; padding-left: 20px; padding-top: 20px; z-index: 1000; background-color: rgba(255, 255, 255, 0.97); display: none;}
+.cjoMobileDropdownOption{color: #999; text-align: left; margin-left: 10px; cursor: pointer; margin-bottom: 15px;/*8*/}
+.cjoMobileSocialMediaTable{width: 260px; margin-top: 20px; margin-bottom: 20px; margin-left: 10px;}
+.cjoMobileSocialMediaLink{width: 30px; margin-right: 10px;}
+.cjoPageMainTitleText{color: #fff; font-size: 120%;/*120%*/ width: 100%; text-align: center;}
+.cjoPageMainSubtitleText{color: #fff; font-size: 100%;/*100%*/ width: 100%; text-align: center;}
+
+.cjoCircleContainer{height: 150px; width: 150px; border-radius: 75px; background-color: rgba(194, 194, 194, .5); margin: auto;}
+.cjoCircleImage{left:50%; margin-left: -70px; top: 50%; margin-top: -70px; width: 140px; position: relative;}
+
+.cjoMainInfoWhite{padding-left: 0px; padding-right: 0px; color: #fff;}
+.cjoMainInfoLightGrey{padding-left: 0px; padding-right: 0px; color: #999; background-color: #f2f2f2;}
+.cjoMainInfoGrey{padding-left: 0px; padding-right: 0px; color: #fff;}
+.cjoMainInfoInner{}
+.cjoMainInfoImage{width: 200px; display: block; margin-left: auto; margin-right: auto; position: relative; bottom: -70px; z-index: 2;}
+.cjoMainInfoTextBlock{padding-left: 40px; padding-right: 40px; padding-top: 50px; padding-bottom: 50px; background-color: #999;}
+.cjoMainInfoTitle{font-size: 130%; margin-bottom: 20px;}
+.cjoMainInfoSubtitle{font-size: 110%;}
+.cjoMainInfoText{margin-bottom: 10px;}
+.cjoMainInfoLinks{margin-top: 20px;}
+.cjoMainInfoLinks > a{color: #7CCFD7; text-decoration: none;}
+
+.container-fluid{padding-left: 0px; padding-right: 0px;}
+.cjoRowInFluid{margin-left: 0px; margin-right: 0px;}
+
+.cjoCarouselContainer{background-color: #fff; padding-top: 10px;}
+.orthoCarouselDesktop{width: 80%; margin-left: auto; margin-right: auto; margin-bottom: 30px;}
+.cjoCarouselImage{width: 150px; height: 150px; margin-left: auto; margin-right: auto;}
+.slick-next:before{color: #999;}
+.slick-prev:before{color: #999;}
+
+.cjoRevitInfoContainer{padding-left: 40px; padding-right: 40px; padding-top: 50px; padding-bottom: 50px;}
+.cjoRevitImage{width: 150px; display: block; margin-left: auto; margin-right: auto; margin-bottom: 30px;}
+.cjoRevitTextBlock{color: #999; font-size: 120%; padding-left: 30px; padding-right: 30px;}
+
+.cjoContentHeader{width: 100%; height: auto; background-color: #fff; margin-bottom: 20px; padding-top: 10px; padding-bottom: 10px;}
+.cjoContentImage{width: 90%; margin-left: auto; margin-right: auto; display: block;}
+.cjoContentText{width: 80%; margin-left: auto; margin-right: auto; text-align: left; font-size: 130%; padding-bottom: 100px; padding-top: 50px;}
+.cjoContentSpacer{display: none;}
+
+.cjoStrategyContainer{background-color: #fff;}
+
+#cjoLittleBlueBanner{padding-top: 10px; padding-bottom: 10px;}
+
+.cjoManufacturer{width: 100%; margin-top: 30px; margin-bottom: 30px;}
+.cjoManufacturerStacked{width: 90%; display: none;}
+.cjoFooterRow{display: none;}
+.cjoFooterContainer{margin-top:50px;}
+.cjoMobileBackToTop{width: 40px; position: absolute; bottom: 57px; right: 20px; cursor: pointer;}
+
+.cjoMobileFooter{color: #999; text-align: center; padding-left: 20px; padding-right: 20px; padding-top: 20px; padding-bottom: 5px; font-size: 80%;}
+
+@media screen and (min-width: 768px)
+{
+	.cjoPopupForm{width: 500px; position: fixed; left: 50%; height: 675px; margin-left: -250px; top: 150px; font-size: 140%; z-index: 10001;}
+	.cjoPopupFormStepButton{padding: 10px;}
+	#cjoPopupFormStep2Button{right:-1px;}
+	.cjoPopupFormInput{margin-bottom: 25px;}
+	#cjoPopupRequiredField{padding: 25px 30px;}
+	#cjoCheckboxContainer{padding-bottom: 25px;}
+
+	
+	.cjoHeaderMenuMobile{display: none;}
+	.cjoHeaderLinkTable{display: block; height: 20px; position: absolute; right: 0px; top: 50%; margin-top: -10px; padding-right: 20px;}
+	.cjoHeaderLinkTableCell{position: relative; text-align: center; padding-left: 10px; padding-right: 10px;}
+	.cjoHeaderLinkBar{height: 3px; width: 90%; background-color: #7CCFD7; margin-left: auto; margin-right: auto; display: none;}
+	
+	.cjoInternalLinkHeader{height: 60px; display: block; top: 75px; }/*80*//*top50*/
+	
+	#cjoHomePageTitleText{font-size: 230%; margin-bottom: 150px;}
+	.cjoPageMainTitleText{font-size: 300%;}
+	.cjoPageMainSubtitleText{font-size: 130%;}
+	.cjoPageMainTitleText > br{display: none;}
+	
+	.col-sm-4{padding: 0px;}
+
+	.cjoMainInfoWhite{background-color: #fff; color: #999; padding-top: 30px; padding-bottom: 30px;}/*70*/
+	.cjoMainInfoLightGrey{ padding-top: 30px; padding-bottom: 30px;}/*70*/
+	.cjoMainInfoGrey{background-color: #999; padding-top: 30px; padding-bottom: 30px;}/*70*/
+	.cjoMainInfoImageContainer{padding-top: 50px; padding-bottom: 50px; position: relative;}
+	.cjoMainInfoImage{position: absolute; display: block; top: 50%; margin-top: -100px; left: 50%; margin-left: -100px;}
+	.cjoMainInfoTextBlock{background: none; padding-top: 50px;}
+	
+	
+	.orthoCarouselDesktop{width: 600px;}
+	
+	.cjoContentHeader{background-color: #eee; padding-top: 70px;}
+	.cjoContentImage{width: 614px;}
+	.cjoStandardHalfContent{background-color: #eee; margin-bottom: 10px;}
+	.cjoContentText{ color: #999;}
+	.cjoContentText > br{display: none;}
+	
+	.cjoRevitInfoContainer{padding-top: 40px; padding-bottom: 40px;}/*80 80*/
+	.cjoRevitImage{width: 100px;}
+	
+	.cjoBottomContainer{padding-top: 10px; background-color: #fff;}
+	
+	.cjoManufacturerStacked{width: 720px; display: block; margin-left: auto; margin-right: auto; margin-top: 30px; margin-bottom: 30px;}
+	
+	.cjoMobileBackToTop{display: none;}
+	
+	.cjoFooterRow{background-color: #eee; display: block; padding-top: 30px;}
+	.cjoFooterColumn{background-color: #eee; margin-bottom: 20px;}
+	.cjoMobileSocialMediaTable{margin-left: auto; margin-right: auto; margin-top: 0px; margin-bottom: 0px;}
+	.cjoFooterCopyright{text-align: center; color: #999;}
+}
+@media screen and (min-width: 992px)
+{
+	body{background-size: cover; background-attachment: initial; background-repeat: no-repeat; background-position: center center; background-color: #fff;}
+	
+	.cjoMainInfoWhite, .cjoMainInfoGrey, .cjoMainInfoLightGrey{font-size: 150%;}
+	
+	.cjoRevitTextBlock{padding-top: 15px;}
+	
+	.cjoStandardHalfContent{margin-left: 0.5%; margin-right: 0.5%; width: 49%;}
+	.cjoContentHeader{min-height: 235px; position: relative;}
+	.cjoContentImage{width: 389px; height: 103px;}
+	.cjoContentText{min-height: 290px;}
+	.cjoContentSpacer{display: block; width: 100%; height: 5px; background-color: #fff; position: absolute; bottom: 0px;}
+
+	.orthoCarouselDesktop{width: 800px;}
+	
+	.cjoMobileSocialMediaTable{margin-right: 0; margin-left: auto;}
+	.cjoFooterCopyright{margin-left: 0; margin-right: auto; text-align: left;}
+}
+@media screen and (min-width: 1200px)
+{
+	.cjoRevitTextBlock{padding-top: 30px;}
+
+	.cjoContentImage{width: 450px; height: 119px;}
+	.cjoManufacturerStacked{width: 1050px;}
+
+}

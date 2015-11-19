@@ -1,0 +1,75 @@
+
+body{background: none;}
+	
+#cjoMainContainerFluid{background-image: url("../images/background/BIMpage_background_mobile.png"); background-size: cover; background-position: center center; background-color: #000; padding-left: 0px; padding-right: 0px;}
+#cjoMainContainer{padding-left: 0px; padding-right: 0px; background: none; padding-top: 300px;}
+
+.cjoInternalLinkContainer{padding-top: 10px;}
+
+.cjoPageMainTitleText{padding-top: 50px;}
+.cjoPageMainSubtitleText{margin-bottom: 200px;}
+		
+.cjoBimTowerImage{width: 200px; display: block; margin-left: auto; margin-right: auto; margin-top: 100px; margin-bottom: 100px;}
+		
+.cjoStandardHalfContent{background-color: #eee;}
+.cjoContentSpacer{display: none; width: 100%; height: 5px; background-color: #fff; position: absolute; bottom: 0px;}
+.cjoContentHeader{background-color: #eee; margin-bottom: 0px;}
+.cjoContentImage{margin-top: 20px; margin-bottom: 0px;}
+.cjoContentText{padding-bottom: 30px;}
+		
+.cjoStriveForText{color: #999; background-color: #f2f2f2; padding-top: 20px;}
+.cjoStriveForImageContainer{padding-left: 40px;}
+.cjoMainInfoThisNotThatImage{display: block; width: 200px; margin:auto;}
+.cjoStriveForTitle{padding-left: 30px; padding-top: 40px;}
+.cjoThisText{position: absolute; top: 85%; left:20%; font-size: 140%;}
+		
+.cjoCarouselContainer{padding-top: 40px; padding-bottom: 10px; position: relative;}
+.cjoCarouselImageExpanded{width: 250px; position: absolute; top: 20px; left: 50%; margin-left: -125px; z-index: 10001; display: none;}
+.cjoCarouselImage{cursor: pointer;}
+		
+#cjoBottomInfoContainer{color: #999; text-align: center; font-size: 105%; margin-top: 100px; margin-bottom: 100px;}
+#cjoLittleBlueBanner{background-color: #7CCFD7; color: #fff; width: 180px; margin-left: auto; margin-right: auto; margin-top: 40px; margin-bottom: 20px;}
+
+@media screen and (min-width: 768px)
+{
+	#cjoMainContainerFluid{background-image: url("../images/background/strategy.jpg");}
+
+	.cjoPageMainSubtitleText{margin-bottom: 200px;}
+	.cjoPageMainSubtitleText > br{display: none;}
+
+	.cjoStriveForImageContainer{position: relative; padding-top: 20px;}
+	.cjoMainInfoThisNotThatImage{width: 330px; /*height: 130px*/; position: absolute; right: 0px; top: 50%; margin-top: -175px;}
+			
+	#cjoBimTowerContainer{padding-top: 120px; padding-bottom: 120px;}
+	.cjoBimTowerImage{width: 400px;}
+		
+	p > br{display: none;}
+	.cjoStandardHalfContent{margin-bottom: 0px;}
+	.cjoContentHeader{padding-top: 20px; margin-bottom: 0px;}
+	.cjoContentSpacer{display: none;}
+	.cjoContentText{width: 60%;}
+	#cjoBottomInfoContainer{font-size: 150%; margin-bottom: 0px;}
+	#cjoLittleBlueBanner{width: 300px;}
+	.cjoNotepadImage{top: 50px; margin-top: 0px;}
+			
+	.cjoCarouselImageExpanded{width: 450px; margin-left: -225px;}
+
+	.cjoCircleContainer{display: block;}
+}
+		
+@media screen and (min-width: 992px)
+{
+	.cjoContentText{padding-top: 50px; padding-bottom: 20px; min-height: 250px; max-width: 290px;}
+			
+	#cjoBottomInfoContainer{font-size: 170%;}
+	#cjoLittleBlueBanner{width: 350px;}
+			
+	.cjoCarouselImageExpanded{width: 600px; margin-left: -300px;}
+}
+		
+@media screen and (min-width: 1200px)
+{
+	.cjoContentImage{margin-right: 100px;}
+	.cjoContentText{max-width: 350px; margin-left: 100px;}
+	.cjoInternalLinkContainer{padding-top: 20px;}
+}

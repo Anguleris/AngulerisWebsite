@@ -1,0 +1,87 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+
+<head>
+<title>Blender Red</title>
+
+<!-- Use these four includes on your pages under <head> section -->
+
+<link type="text/css" rel="stylesheet" href="imagerotator/html/css/thin.css"/>
+<script type="text/javascript" src="imagerotator/html/js/swfobject.js"></script>
+<script type="text/javascript" src="imagerotator/html/js/jquery-1.7.1.min.js"></script>
+<script type="text/javascript" src="imagerotator/html/js/imagerotator.js"></script>
+
+
+<style type= "text/css">
+
+body
+{
+    background  : #eeeeee;
+    color       : #464646;
+}
+
+/*-- Use #content CSS to customize size, position, border, etc of your 360 view --*/
+
+#content
+{
+    margin-top  : 30px;
+    margin-left : 30px;
+    width       : 715px;
+    height      : 500px;
+    border      : 1px dotted #cecfd2;
+}
+
+
+</style>
+
+</head>
+
+
+<body>
+
+<!--
+    Just copy / paste the content div below onto your page and define its style.
+    Then set configFileURL below to point to your product configuration XML.
+-->
+
+<div id="content">
+
+    <div id="wr360PlayerId" class="wr360_player">
+    </div>
+
+    <script language="javascript" type="text/javascript">
+
+        _imageRotator.settings.jsScriptOnly   = true;
+        _imageRotator.settings.swfFileURL     = "imagerotator/imagerotator.swf";
+        _imageRotator.settings.configFileURL  = "360_assets/Blender Red/blender.xml";
+        _imageRotator.settings.graphicsPath   = "imagerotator/html/img/thin";
+
+        // If you are using Flash mode and have issues with overlapping menus,
+        // uncomment this line below and set it to true
+        // _imageRotator.settings.flybyJsMenuFix = true;
+
+        // If you need to translate or change toolbar tooltips, uncomment these lines
+        // _imageRotator.settings.i18n.zoomButtonsTooltip = "??";
+        // _imageRotator.settings.i18n.hotspotButtonTooltip = "??";
+        // _imageRotator.settings.i18n.fullScreenButtonTooltip = "??";
+        // _imageRotator.settings.i18n.togglePlayButtonTooltip = "??";
+        // _imageRotator.settings.i18n.arrowLeftButtonTooltip = "??";
+        // _imageRotator.settings.i18n.arrowRightButtonTooltip = "??";
+
+        // Specify these three values if you are loading viewer inside an HTML
+        // element that may not be visible (display:none) when viewer starts loading (hidden tabs, js lightboxs, etc)
+        // this.viewWidthJQFix    = ??;
+        // this.viewHeightJQFix   = ??;
+        // this.toolbarWidthJQFix = ??;
+
+
+        _imageRotator.runImageRotator("wr360PlayerId");
+
+    </script>
+
+</div>
+
+
+</body>
+
+</html>

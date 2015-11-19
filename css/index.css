@@ -1,0 +1,108 @@
+
+
+body{background: none;}
+		
+.cjoMainContainer{background-image: url("../images/background/home_mobile.png"); background-size: cover; background-position: center center; padding-top: 240px; padding-bottom: 360px;}
+.cjoGreyRow{background-color: #999; color: #fff; padding-top: 40px; padding-bottom: 20px; padding-left: 40px; padding-right: 40px;}
+.cjoGreyRowBoxTitle{text-align: left; width: 100%; font-size: 120%;}
+.cjoGreyRowBoxText{text-align: left; width: 100%; margin-bottom: 30px; font-size: 100%;}
+
+#cjoSpinnImage{width:70%;}	
+
+.cjoWhiteRow{background-color: #fff; color: #999; padding-top: 30px;}/*30  75*/
+.cjoWhiteRowIcon{display: block; width: 100px; margin-left: auto; margin-right: auto;}
+.cjoWhiteRowBoxTitle{color: #999; text-align: text-align: left; width: 150px; font-size: 120%; margin-left: auto; margin-right: auto; margin-bottom: 10px;}
+#cjoWhiteRowBoxTitleVisual{margin-top: -15px;}
+.cjoWhiteRowBoxText{color: #999; text-align: left; width: 150px; margin-left: auto; margin-right: auto; margin-bottom: 30px; font-size: 100%;}
+		
+.cjoScatterRow{background-color: #fff; padding-top: 50px; padding-bottom: 30px;}
+.cjoScatterContainer{background-image: url("../images/scatter/background.png"); background-size: cover; height: 400px; position: relative;}
+.cjoScatterText{font-size: 200%; color:#fff; width: 100%; text-align: center; margin-top: 100px;}
+.cjoScatterImage{position: absolute; display: block;}
+.cjoScatterFrames{left: 35%; top: 10%; width: 30%; z-index: 1;}
+.cjoScatterFridge{left: 13%; top: 12%; width: 10%; z-index: 1;}
+.cjoScatterLamp{left: 20%; top: 10%; width: 20%; z-index: 2;}
+.cjoScatterChair{left: 27%; bottom: 2%; z-index: 3; width: 15%;}
+.cjoScatterCouch{right: 15%; bottom: 2%; width: 40%; z-index: 3;}
+.cjoScatterDoor{right: 10%; bottom: 35%; width: 15%; z-index: 1;}
+.cjoScatterPhone{right: 18%; bottom: 15%; width: 5%; z-index: 4;}
+.cjoScatterSink{left: 1%; top: 32%; width: 10%; z-index: 1;}
+.cjoScatterSpeakers{left: 5%; bottom: 2%; width: 10%; z-index: 1;}
+.cjoScatterToilet{right:5%; bottom: 5%; width: 7%; z-index: 2;}
+.cjoScatterTracklight{left: 30%; top: 2%; width: 40%; z-index: 2;}
+.cjoScatterWaterheater{right: 1%; top: 15%; width: 10%; z-index: 1;}
+.cjoScatterWindow{left: 2%; top: 7%; width: 8%; z-index: 1;}
+		
+.cjoTwitter{margin-bottom: 50px;}
+.twitter-timeline{margin-left: auto; margin-right: auto;}
+#cjoTwitterFollow{width:100px; margin:auto; padding-top:20px;}
+#cjoTwitterFollowButton{background-color: #7CCFD7; color: #fff; width: 180px; margin-left: auto; margin-right: auto; margin-top: 40px; margin-bottom: 20px; font-size:105%; padding-top: 10px; padding-bottom:10px; width:100px;/*color:#fff; background-color:#7ccfd7;*/}
+#cjoTwitterContainer{text-align: center; background-color: #f2f2f2; padding-bottom:40px;}
+		
+.cjoNoPadding{padding-right: 0px; padding-left: 0px;}
+.cjoMainHalf{padding-left: 0px; padding-right: 0px;}
+.cjoHalfInner{width: 100%; height: 100%;}
+.cjoMainContentHeader{background-color: #f2f2f2; padding-top: 50px; padding-bottom: 50px;}
+.cjoMainContentImage{width: 85%; margin-left: auto; margin-right: auto; display: block;}
+.cjoMainContentText{padding: 30px; font-size: 130%; background-color: #f2f2f2; color: #999; margin-bottom: 5px;}
+.cjoBottomContainer{padding-bottom: 50px;}
+	
+@media screen and (min-width: 768px)
+{
+	.cjoMainContainer{background-image: url("../images/background/Home_background_rendering.png");}
+			
+	.cjoGreyRowBoxTitle, .cjoGreyRowBoxText{padding-left: 20px; padding-right: 20px;}
+	.cjoGreyRow{padding-left: 0px; padding-right: 0px;}
+			
+	.cjoWhiteRowIcon{margin-bottom: 30px;}
+	.cjoWhiteRowBoxTitle{font-size: 140%; text-align: center;}
+	#cjoWhiteRowBoxTitleVisual{margin-top: 0px;}
+	.cjoWhiteRowBoxText{}
+
+	#cjoSpinnImage{max-width: 410px;}
+			
+	.cjoMainHalf{margin-bottom: 20px;}
+	.cjoHalfInner{background-color: #f2f2f2;}
+	.cjoMainContentHeader{background-color: #f2f2f2; padding-top: 60px;}
+	.cjoMainContentImage{max-width: 500px;}
+	.cjoMainContentText{background-color: #f2f2f2; color: #999; font-size: 160%; padding: 50px 120px;}
+	.cjoMainContentText > br{display: none;}
+	.cjoBottomContainer{padding-bottom: 0px;}
+
+	#cjoTwitterFollowButton{font-size:150%;}
+}
+@media screen and (min-width: 992px)
+{
+	.cjoGreyRowBoxTitle{font-size: 180%;}
+	.cjoGreyRowBoxText{font-size: 130%;}
+		
+	.cjoWhiteRowBoxTitle{font-size: 180%; width: 100%; padding-left: 20px; padding-right: 20px;}
+	.cjoWhiteRowBoxText{font-size: 130%; width: 100%; padding-left: 20px; padding-right: 20px;}
+		
+	.cjoScatterContainer{height: 500px;}
+
+	.cjoMainHalf{padding: 5px;}
+	.cjoMainContentHeader{margin-bottom: 10px; position: relative; padding-top: 70px; padding-bottom: 70px;}
+	.cjoMainContentImage{width: 410px;}
+	.cjoMainContentText{padding: 30px 80px;}
+	.cjoMainContentLine{background-color: #fff; height: 10px; width: 100%; position: absolute; bottom: 0px;}
+
+	#cjoSpinnImage{width: 334px;}
+
+	.cjoScatterText{margin-top: 110px;}
+}
+	
+@media screen and (min-width: 1200px)
+{
+	.cjoScatterContainer{height: 600px;}
+
+	.cjoMainContentImage{width: 500px;}
+	.cjoMainContentText{max-width: 500px; margin-left: auto; margin-right: auto; padding-left: 0px; padding-right: 0px;}
+	.cjoLeftContent{margin-right: 50px;}
+	.cjoRightContent{margin-left: 50px;}
+
+	#cjoSpinnImage{width: 410px;}
+
+
+	.cjoScatterText{margin-top: 150px;}
+}

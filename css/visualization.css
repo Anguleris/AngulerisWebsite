@@ -1,0 +1,70 @@
+
+body{background: none;}
+#cjoMainContainerOuter{background-image: url("../images/background/visualization_mobile.png"); background-size: cover; background-position: center center; background-color: #000;}
+#cjoMainContainer{background: none; padding-top: 300px;}
+
+.cjoPageMainTitleText{padding-top: 50px;}
+.cjoPageMainSubtitleText{margin-bottom: 100px;}
+		
+.cjoStrategyContainer{padding-top: 30px;}
+.cjoStandardHalfContent{background-color: #eee;}
+.cjoContentImage{width: 50%;}
+.cjoVisContent{font-size: 120%;}
+.cjoSplitImage{width: 100%; margin-top: 20px; margin-bottom: 20px;}
+#cjoBottomInfoContainer{font-size: 120%; margin-bottom: 100px;}
+#cjoLittleBlueBanner{text-align: center; color: #fff; background-color: #7CCFD7; width: 230px; margin-left: auto; margin-right: auto; margin-top: 40px; margin-bottom: 20px;}
+.cjoVisContent{padding-top: 30px; padding-bottom: 30px;}
+.cjoVisContentImage{width: 70%; display: block; margin-left: auto; margin-right: auto;}
+		
+#cjoStoveContainer{background-color: #eee; padding-bottom: 30px;}
+#cjoSpinnContainer{background-color: #fff; padding-left: 0px; padding-right: 0px;}
+.cjoSpinnContent{background-color: #eee; margin-bottom: 10px; position: relative;}	
+						
+@media screen and (min-width: 768px)
+{
+	#cjoMainContainerOuter{background-image: url("../images/background/visualizationpage.png");}
+	
+	.cjoPageMainSubtitleText{margin-bottom: 200px;}
+	.cjoPageMainSubtitleText > br{display: none;}		
+	p > br{display: none;}
+	.cjoStandardHalfContent{padding-bottom: 20px; padding-top: 20px;}
+	.cjoContentHeader{padding-top: 30px;}
+	.cjoContentImage{width: 192px; height: 141px;}
+		
+	#cjoSplitContainer{padding-top: 40px; padding-bottom: 40px;}
+		
+	#cjoSpinnContainer{background-color: #eee;}
+	.cjoSpinnImage{position: relative; bottom: -40px;}
+	.cjoContentText{padding-bottom: 0px; padding-top: 0px;}
+	#cjoBottomInfoContainer{font-size: 150%;}
+	#cjoLittleBlueBanner{width: 250px;}
+	#cjoContentText2{}
+			
+	#cjoStove{position: absolute; top:50%; margin-top: -93px;}
+}
+		
+@media screen and (min-width: 992px)
+{
+	.cjoStandardHalfContent{width: 50%; margin: 0;}
+	.cjoContentHeader{padding-top: 0px; margin-bottom: 0px; padding-bottom: 0px; min-height: 0px;}
+	.cjoVisContentImage{margin-right: 50px; width: 80%;}
+	.cjoVisContent{font-size: 150%;}
+	.cjoSpinnImage{position: static;}
+	#cjoBottomInfoContainer{font-size: 180%;}
+	#cjoLittleBlueBanner{width: 350px;}
+	#cjoStove{margin-top: -139px;}
+}
+		
+@media screen and (min-width: 1200px)
+{
+	#cjoStove{margin-top: -168px;}
+}
+	
+@media screen and (min-width: 992px) and (max-width: 1199px) and (min-height: 2010px)
+{
+	.cjoFooterContainer{position: fixed; bottom: 0px; width: 100%;}
+}
+@media screen and (min-width: 1200px) and (min-height: 2115px)
+{
+	.cjoFooterContainer{position: fixed; bottom: 0px; width: 100%;}
+}

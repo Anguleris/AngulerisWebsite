@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<config>
+  <settings>
+    <preloader image="images/Vitamix_Final_00000.jpg" />
+    <userInterface showZoomButtons="true" showToolTips="true" showHotspotsButton="true" showFullScreenButton="true" showTogglePlayButton="true" showArrows="true" toolbarAlign="center" toolbarBackColor="#FFFFFF" toolbarHoverColor="#808285" toolbarForeColor="#A7A9AE" toolbarBackAlpha="0.9" toolbarAlpha="1" flashEmbedFonts="true" showProgressNumbers="true" progressLoopColor="#e8e8e8" progressNumColor="#949494" />
+    <control dragSpeed="0.12" maxZoom="200" maxZoomFullScreen="200" fullScreenStretch="100" doubleClickZooms="true" disableMouseControl="false" reverseScroll="false" />
+    <rotation firstImage="0" rotate="false" rotatePeriod="4" bounce="false" rotateDirection="-1" forceDirection="false" />
+  </settings>
+  <hotspots />
+  <images highresWidth="1280" highresHeight="720">
+    <image src="images/Vitamix_Final_00000.jpg">
+      <highres src="images/highres/Vitamix_Final_00000.jpg" />
+    </image>
+    <image src="images/Vitamix_Final_00001.jpg">
+      <highres src="images/highres/Vitamix_Final_00001.jpg" />
+    </image>
+    <image src="images/Vitamix_Final_00002.jpg">
+      <highres src="images/highres/Vitamix_Final_00002.jpg" />
+    </image>
+    <image src="images/Vitamix_Final_00003.jpg">
+      <highres src="images/highres/Vitamix_Final_00003.jpg" />
+    </image>
+    <image src="images/Vitamix_Final_00004.jpg">
+      <highres src="images/highres/Vitamix_Final_00004.jpg" />
+    </image>
+    <image src="images/Vitamix_Final_00005.jpg">
+      <highres src="images/highres/Vitamix_Final_00005.jpg" />
+    </image>
+    <image src="images/Vitamix_Final_00006.jpg">
+      <highres src="images/highres/Vitamix_Final_00006.jpg" />
+    </image>
+    <image src="images/Vitamix_Final_00007.jpg">
+      <highres src="images/highres/Vitamix_Final_00007.jpg" />
+    </image>
+    <image src="images/Vitamix_Final_00008.jpg">
+      <highres src="images/highres/Vitamix_Final_00008.jpg" />
+    </image>
+    <image src="images/Vitamix_Final_00009.jpg">
+      <highres src="images/highres/Vitamix_Final_00009.jpg" />
+    </image>
+    <image src="images/Vitamix_Final_00010.jpg">
+      <highres src="images/highres/Vitamix_Final_00010.jpg" />
+    </image>
+    <image src="images/Vitamix_Final_00011.jpg">
+      <highres src="images/highres/Vitamix_Final_00011.jpg" />
+    </image>
+    <image src="images/Vitamix_Final_00012.jpg">
+      <highres src="images/highres/Vitamix_Final_00012.jpg" />
+    </image>
+    <image src="images/Vitamix_Final_00013.jpg">
+      <highres src="images/highres/Vitamix_Final_00013.jpg" />
+    </image>
+    <image src="images/Vitamix_Final_00014.jpg">
+      <highres src="images/highres/Vitamix_Final_00014.jpg" />
+    </image>
+    <image src="images/Vitamix_Final_00015.jpg">
+      <highres src="images/highres/Vitamix_Final_00015.jpg" />
+    </image>
+    <image src="images/Vitamix_Final_00016.jpg">
+      <highres src="images/highres/Vitamix_Final_00016.jpg" />
+    </image>
+    <image src="images/Vitamix_Final_00017.jpg">
+      <highres src="images/highres/Vitamix_Final_00017.jpg" />
+    </image>
+    <image src="images/Vitamix_Final_00018.jpg">
+      <highres src="images/highres/Vitamix_Final_00018.jpg" />
+    </image>
+    <image src="images/Vitamix_Final_00019.jpg">
+      <highres src="images/highres/Vitamix_Final_00019.jpg" />
+    </image>
+    <image src="images/Vitamix_Final_00020.jpg">
+      <highres src="images/highres/Vitamix_Final_00020.jpg" />
+    </image>
+    <image src="images/Vitamix_Final_00021.jpg">
+      <highres src="images/highres/Vitamix_Final_00021.jpg" />
+    </image>
+    <image src="images/Vitamix_Final_00022.jpg">
+      <highres src="images/highres/Vitamix_Final_00022.jpg" />
+    </image>
+    <image src="images/Vitamix_Final_00023.jpg">
+      <highres src="images/highres/Vitamix_Final_00023.jpg" />
+    </image>
+    <image src="images/Vitamix_Final_00024.jpg">
+      <highres src="images/highres/Vitamix_Final_00024.jpg" />
+    </image>
+    <image src="images/Vitamix_Final_00025.jpg">
+      <highres src="images/highres/Vitamix_Final_00025.jpg" />
+    </image>
+    <image src="images/Vitamix_Final_00026.jpg">
+      <highres src="images/highres/Vitamix_Final_00026.jpg" />
+    </image>
+    <image src="images/Vitamix_Final_00027.jpg">
+      <highres src="images/highres/Vitamix_Final_00027.jpg" />
+    </image>
+    <image src="images/Vitamix_Final_00028.jpg">
+      <highres src="images/highres/Vitamix_Final_00028.jpg" />
+    </image>
+    <image src="images/Vitamix_Final_00029.jpg">
+      <highres src="images/highres/Vitamix_Final_00029.jpg" />
+    </image>
+    <image src="images/Vitamix_Final_00030.jpg">
+      <highres src="images/highres/Vitamix_Final_00030.jpg" />
+    </image>
+    <image src="images/Vitamix_Final_00031.jpg">
+      <highres src="images/highres/Vitamix_Final_00031.jpg" />
+    </image>
+    <image src="images/Vitamix_Final_00032.jpg">
+      <highres src="images/highres/Vitamix_Final_00032.jpg" />
+    </image>
+    <image src="images/Vitamix_Final_00033.jpg">
+      <highres src="images/highres/Vitamix_Final_00033.jpg" />
+    </image>
+    <image src="images/Vitamix_Final_00034.jpg">
+      <highres src="images/highres/Vitamix_Final_00034.jpg" />
+    </image>
+    <image src="images/Vitamix_Final_00035.jpg">
+      <highres src="images/highres/Vitamix_Final_00035.jpg" />
+    </image>
+    <image src="images/Vitamix_Final_00036.jpg">
+      <highres src="images/highres/Vitamix_Final_00036.jpg" />
+    </image>
+    <image src="images/Vitamix_Final_00037.jpg">
+      <highres src="images/highres/Vitamix_Final_00037.jpg" />
+    </image>
+    <image src="images/Vitamix_Final_00038.jpg">
+      <highres src="images/highres/Vitamix_Final_00038.jpg" />
+    </image>
+    <image src="images/Vitamix_Final_00039.jpg">
+      <highres src="images/highres/Vitamix_Final_00039.jpg" />
+    </image>
+    <image src="images/Vitamix_Final_00040.jpg">
+      <highres src="images/highres/Vitamix_Final_00040.jpg" />
+    </image>
+    <image src="images/Vitamix_Final_00041.jpg">
+      <highres src="images/highres/Vitamix_Final_00041.jpg" />
+    </image>
+    <image src="images/Vitamix_Final_00042.jpg">
+      <highres src="images/highres/Vitamix_Final_00042.jpg" />
+    </image>
+  </images>
+</config>

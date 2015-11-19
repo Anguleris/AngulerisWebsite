@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<config>
+  <settings>
+    <preloader image="images/mailbox_cluster_00.jpg" />
+    <userInterface showZoomButtons="true" showToolTips="false" showHotspotsButton="false" showFullScreenButton="true" showTogglePlayButton="true" showArrows="true" toolbarAlign="center" toolbarBackColor="#FFFFFF" toolbarHoverColor="#808285" toolbarForeColor="#A7A9AE" toolbarBackAlpha="0.9" toolbarAlpha="1" flashEmbedFonts="true" showProgressNumbers="false" progressLoopColor="#e8e8e8" progressNumColor="#949494" />
+    <control dragSpeed="0.13" maxZoom="200" maxZoomFullScreen="200" fullScreenStretch="100" doubleClickZooms="true" disableMouseControl="false" reverseScroll="false" />
+    <rotation firstImage="0" rotate="false" rotatePeriod="7" bounce="false" rotateDirection="-1" forceDirection="false" />
+  </settings>
+  <hotspots />
+  <images highresWidth="1280" highresHeight="720">
+    <image src="images/mailbox_cluster_00.jpg">
+      <highres src="images/highres/mailbox_cluster_00.jpg" />
+    </image>
+    <image src="images/mailbox_cluster_01.jpg">
+      <highres src="images/highres/mailbox_cluster_01.jpg" />
+    </image>
+    <image src="images/mailbox_cluster_02.jpg">
+      <highres src="images/highres/mailbox_cluster_02.jpg" />
+    </image>
+    <image src="images/mailbox_cluster_03.jpg">
+      <highres src="images/highres/mailbox_cluster_03.jpg" />
+    </image>
+    <image src="images/mailbox_cluster_04.jpg">
+      <highres src="images/highres/mailbox_cluster_04.jpg" />
+    </image>
+    <image src="images/mailbox_cluster_05.jpg">
+      <highres src="images/highres/mailbox_cluster_05.jpg" />
+    </image>
+    <image src="images/mailbox_cluster_06.jpg">
+      <highres src="images/highres/mailbox_cluster_06.jpg" />
+    </image>
+    <image src="images/mailbox_cluster_07.jpg">
+      <highres src="images/highres/mailbox_cluster_07.jpg" />
+    </image>
+    <image src="images/mailbox_cluster_08.jpg">
+      <highres src="images/highres/mailbox_cluster_08.jpg" />
+    </image>
+    <image src="images/mailbox_cluster_09.jpg">
+      <highres src="images/highres/mailbox_cluster_09.jpg" />
+    </image>
+    <image src="images/mailbox_cluster_10.jpg">
+      <highres src="images/highres/mailbox_cluster_10.jpg" />
+    </image>
+    <image src="images/mailbox_cluster_11.jpg">
+      <highres src="images/highres/mailbox_cluster_11.jpg" />
+    </image>
+    <image src="images/mailbox_cluster_12.jpg">
+      <highres src="images/highres/mailbox_cluster_12.jpg" />
+    </image>
+    <image src="images/mailbox_cluster_13.jpg">
+      <highres src="images/highres/mailbox_cluster_13.jpg" />
+    </image>
+    <image src="images/mailbox_cluster_14.jpg">
+      <highres src="images/highres/mailbox_cluster_14.jpg" />
+    </image>
+    <image src="images/mailbox_cluster_15.jpg">
+      <highres src="images/highres/mailbox_cluster_15.jpg" />
+    </image>
+    <image src="images/mailbox_cluster_16.jpg">
+      <highres src="images/highres/mailbox_cluster_16.jpg" />
+    </image>
+    <image src="images/mailbox_cluster_17.jpg">
+      <highres src="images/highres/mailbox_cluster_17.jpg" />
+    </image>
+    <image src="images/mailbox_cluster_18.jpg">
+      <highres src="images/highres/mailbox_cluster_18.jpg" />
+    </image>
+    <image src="images/mailbox_cluster_19.jpg">
+      <highres src="images/highres/mailbox_cluster_19.jpg" />
+    </image>
+    <image src="images/mailbox_cluster_20.jpg">
+      <highres src="images/highres/mailbox_cluster_20.jpg" />
+    </image>
+    <image src="images/mailbox_cluster_21.jpg">
+      <highres src="images/highres/mailbox_cluster_21.jpg" />
+    </image>
+    <image src="images/mailbox_cluster_22.jpg">
+      <highres src="images/highres/mailbox_cluster_22.jpg" />
+    </image>
+    <image src="images/mailbox_cluster_23.jpg">
+      <highres src="images/highres/mailbox_cluster_23.jpg" />
+    </image>
+    <image src="images/mailbox_cluster_24.jpg">
+      <highres src="images/highres/mailbox_cluster_24.jpg" />
+    </image>
+    <image src="images/mailbox_cluster_25.jpg">
+      <highres src="images/highres/mailbox_cluster_25.jpg" />
+    </image>
+    <image src="images/mailbox_cluster_26.jpg">
+      <highres src="images/highres/mailbox_cluster_26.jpg" />
+    </image>
+    <image src="images/mailbox_cluster_27.jpg">
+      <highres src="images/highres/mailbox_cluster_27.jpg" />
+    </image>
+    <image src="images/mailbox_cluster_28.jpg">
+      <highres src="images/highres/mailbox_cluster_28.jpg" />
+    </image>
+    <image src="images/mailbox_cluster_29.jpg">
+      <highres src="images/highres/mailbox_cluster_29.jpg" />
+    </image>
+    <image src="images/mailbox_cluster_30.jpg">
+      <highres src="images/highres/mailbox_cluster_30.jpg" />
+    </image>
+    <image src="images/mailbox_cluster_31.jpg">
+      <highres src="images/highres/mailbox_cluster_31.jpg" />
+    </image>
+    <image src="images/mailbox_cluster_32.jpg">
+      <highres src="images/highres/mailbox_cluster_32.jpg" />
+    </image>
+    <image src="images/mailbox_cluster_33.jpg">
+      <highres src="images/highres/mailbox_cluster_33.jpg" />
+    </image>
+    <image src="images/mailbox_cluster_34.jpg">
+      <highres src="images/highres/mailbox_cluster_34.jpg" />
+    </image>
+    <image src="images/mailbox_cluster_35.jpg">
+      <highres src="images/highres/mailbox_cluster_35.jpg" />
+    </image>
+    <image src="images/mailbox_cluster_36.jpg">
+      <highres src="images/highres/mailbox_cluster_36.jpg" />
+    </image>
+    <image src="images/mailbox_cluster_37.jpg">
+      <highres src="images/highres/mailbox_cluster_37.jpg" />
+    </image>
+    <image src="images/mailbox_cluster_38.jpg">
+      <highres src="images/highres/mailbox_cluster_38.jpg" />
+    </image>
+    <image src="images/mailbox_cluster_39.jpg">
+      <highres src="images/highres/mailbox_cluster_39.jpg" />
+    </image>
+    <image src="images/mailbox_cluster_40.jpg">
+      <highres src="images/highres/mailbox_cluster_40.jpg" />
+    </image>
+    <image src="images/mailbox_cluster_41.jpg">
+      <highres src="images/highres/mailbox_cluster_41.jpg" />
+    </image>
+    <image src="images/mailbox_cluster_42.jpg">
+      <highres src="images/highres/mailbox_cluster_42.jpg" />
+    </image>
+    <image src="images/mailbox_cluster_43.jpg">
+      <highres src="images/highres/mailbox_cluster_43.jpg" />
+    </image>
+    <image src="images/mailbox_cluster_44.jpg">
+      <highres src="images/highres/mailbox_cluster_44.jpg" />
+    </image>
+    <image src="images/mailbox_cluster_45.jpg">
+      <highres src="images/highres/mailbox_cluster_45.jpg" />
+    </image>
+    <image src="images/mailbox_cluster_46.jpg">
+      <highres src="images/highres/mailbox_cluster_46.jpg" />
+    </image>
+    <image src="images/mailbox_cluster_47.jpg">
+      <highres src="images/highres/mailbox_cluster_47.jpg" />
+    </image>
+    <image src="images/mailbox_cluster_48.jpg">
+      <highres src="images/highres/mailbox_cluster_48.jpg" />
+    </image>
+    <image src="images/mailbox_cluster_49.jpg">
+      <highres src="images/highres/mailbox_cluster_49.jpg" />
+    </image>
+    <image src="images/mailbox_cluster_50.jpg">
+      <highres src="images/highres/mailbox_cluster_50.jpg" />
+    </image>
+    <image src="images/mailbox_cluster_51.jpg">
+      <highres src="images/highres/mailbox_cluster_51.jpg" />
+    </image>
+    <image src="images/mailbox_cluster_52.jpg">
+      <highres src="images/highres/mailbox_cluster_52.jpg" />
+    </image>
+    <image src="images/mailbox_cluster_53.jpg">
+      <highres src="images/highres/mailbox_cluster_53.jpg" />
+    </image>
+    <image src="images/mailbox_cluster_54.jpg">
+      <highres src="images/highres/mailbox_cluster_54.jpg" />
+    </image>
+    <image src="images/mailbox_cluster_55.jpg">
+      <highres src="images/highres/mailbox_cluster_55.jpg" />
+    </image>
+    <image src="images/mailbox_cluster_56.jpg">
+      <highres src="images/highres/mailbox_cluster_56.jpg" />
+    </image>
+    <image src="images/mailbox_cluster_57.jpg">
+      <highres src="images/highres/mailbox_cluster_57.jpg" />
+    </image>
+    <image src="images/mailbox_cluster_58.jpg">
+      <highres src="images/highres/mailbox_cluster_58.jpg" />
+    </image>
+    <image src="images/mailbox_cluster_59.jpg">
+      <highres src="images/highres/mailbox_cluster_59.jpg" />
+    </image>
+  </images>
+</config>
