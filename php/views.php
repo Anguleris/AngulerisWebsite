@@ -66,6 +66,9 @@ function display_header($title, $stylesheets)
 	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 	<script src="$urlbase/js/cjoMatchHeights.js"></script>
 	<link rel="stylesheet" href="$urlbase/css/main.css">
+
+	<link rel="prefetch" href="$urlbase/images/content/BIMsmithButtonText.png">
+	<link rel="prefetch" href="$urlbase/images/content/BIMsmithButtonText.png">
 _END;
 
 	foreach($stylesheets as $stylesheet)
