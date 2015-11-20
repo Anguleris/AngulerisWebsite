@@ -1484,7 +1484,7 @@ function upload_resume_form()
 				</div>
 				<br>
 				<input type="hidden" id="cjoPopupFormIsAsync" name="cjoIsAsync" value="false">
-				<button id="cjoFormSubmit">SUBMIT</button>
+				<button id="cjoFormSubmit" class="cjoPopupFormStepButton">SUBMIT</button>
 			</div>
 		</form>
 	</div>
