@@ -48,4 +48,12 @@ function contact_page_controller()
 	contact_page_view();
 	display_footer($scripts);
 }
+
+function spinn_page_controller()
+{
+	$scripts = array("js/spinn.js");
+	display_header_spinn("Spinn", array("css/spinn.css"));
+	spinn_page_view();
+	display_footer_spinn($scripts);
+}
 ?>

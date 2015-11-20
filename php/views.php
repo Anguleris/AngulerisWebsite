@@ -42,6 +42,40 @@ _END;
 _END;
 }
 
+function display_footer_spinn($scripts)
+{
+	global $urlbase;
+	echo<<<_END
+	
+	<div class="cjoFooter">
+		<div class="cjoFooterInner">
+			<img class="cjoFooterLogo" src="$urlbase/spinn/images/anguleris.png">
+			<div class="cjoFooterSocial">
+				<a href="https://www.facebook.com/Anguleris" target="_blank"><img class="cjoFooterSocialIcon" src="$urlbase/spinn/images/social/fb.png"></a>
+				<a href="https://www.linkedin.com/company/anguleris-technologies" target="_blank"><img class="cjoFooterSocialIcon" src="$urlbase/spinn/images/social/link.png"></a>
+				<a href="https://twitter.com/anguleris" target="_blank"><img class="cjoFooterSocialIcon" src="$urlbase/spinn/images/social/tw.png"></a>
+			</div>
+			<div class="cjoFooterCopyright">©2015 Anguleris Technologies</div>
+		</div>
+	</div>
+_END;
+
+	foreach($scripts as $script)
+	{
+		echo<<<_END
+	
+	<script src="$urlbase/$script"></script>
+_END;
+	}
+	
+	echo<<<_END
+	
+</body>
+</html>
+_END;
+
+}
+
 function display_header($title, $stylesheets)
 {
 	global $urlbase, $urlHomeRoute, $urlStrategyRoute, $urlVisualizationRoute, $urlVideoRoute, $urlTrainingRoute, $urlContactRoute;
@@ -128,6 +162,39 @@ _END;
 			<a href="https://plus.google.com/109532662513753771690/about" target="_blank"><img class="cjoMobileSocialMediaLink" src="$urlbase/images/socialMediaLinks/google.png"></a>
 	</div>
 </div>
+_END;
+}
+
+function display_header_spinn($title, $stylesheets)
+{
+	global $urlbase, $urlHomeRoute, $urlStrategyRoute, $urlVisualizationRoute, $urlVideoRoute, $urlTrainingRoute, $urlContactRoute;
+	echo<<<_END
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>$title</title>
+	
+	<link rel="shortcut icon" href="$urlbase/images/icons/Anguleris_tab_icon.png" type="image/png" />
+	<script type="text/javascript" src="$urlbase/spinn/Publish/imagerotator/html/js/jquery-1.7.1.min.js"></script>
+	<link type="text/css" rel="stylesheet" href="$urlbase/spinn/Publish/imagerotator/html/css/thin.css"/>
+	<script type="text/javascript" src="$urlbase/spinn/Publish/imagerotator/html/js/swfobject.js"></script>
+	<script type="text/javascript" src="$urlbase/spinn/Publish/imagerotator/html/js/imagerotator.js"></script>
+_END;
+
+	foreach($stylesheets as $style)
+	{
+		echo<<<_END
+	
+	<link rel="stylesheet" href="$urlbase/$style">
+_END;
+	}
+
+	echo<<<_END
+	
+</head>
+<body>
 _END;
 }
 
@@ -1115,6 +1182,80 @@ boast a beautiful view of the Fox River
 </div>
 _END;
 }
+
+function spinn_page_view()
+{
+	global $urlbase;
+	echo<<<_END
+	
+<img class="cjoHeaderImage" src="$urlbase/spinn/images/360Spinn.png">
+<div class="cjoMainContainer">
+
+	<img class="cjoSwapButton" id="cjoPrevButton" src="$urlbase/spinn/images/icons/tri_left.png">
+
+	<img class="cjoSwapButton" id="cjoNextButton" src="$urlbase/spinn/images/icons/tri_right.png">
+
+<!--
+    Just copy / paste the content div below onto your page and define its style.
+    Then set configFileURL below to point to your product configuration XML.
+-->
+
+
+	<div id="content">
+
+		<div id="wr360PlayerId" class="wr360_player" data-configFile="$urlbase/spinn/Publish/360_assets/Mailbox/mailbox.xml" data-configurlbase="$urlbase/spinn">
+		</div>
+
+		<script language="javascript" type="text/javascript">
+
+			_imageRotator.settings.jsScriptOnly   = true;
+			_imageRotator.settings.swfFileURL     = "$urlbase/spinn/Publish/imagerotator/imagerotator.swf";
+			_imageRotator.settings.configFileURL  = "$urlbase/spinn/Publish/360_assets/Mailbox/mailbox.xml";
+			_imageRotator.settings.graphicsPath   = "$urlbase/spinn/Publish/imagerotator/html/img/thin";
+
+			// If you are using Flash mode and have issues with overlapping menus,
+			// uncomment this line below and set it to true
+			// _imageRotator.settings.flybyJsMenuFix = true;
+
+			// If you need to translate or change toolbar tooltips, uncomment these lines
+			// _imageRotator.settings.i18n.zoomButtonsTooltip = "??";
+			// _imageRotator.settings.i18n.hotspotButtonTooltip = "??";
+			// _imageRotator.settings.i18n.fullScreenButtonTooltip = "??";
+			// _imageRotator.settings.i18n.togglePlayButtonTooltip = "??";
+			// _imageRotator.settings.i18n.arrowLeftButtonTooltip = "??";
+			// _imageRotator.settings.i18n.arrowRightButtonTooltip = "??";
+
+			// Specify these three values if you are loading viewer inside an HTML
+			// element that may not be visible (display:none) when viewer starts loading (hidden tabs, js lightboxs, etc)
+			// this.viewWidthJQFix    = ??;
+			// this.viewHeightJQFix   = ??;
+			// this.toolbarWidthJQFix = ??;
+
+
+			_imageRotator.runImageRotator("wr360PlayerId");
+
+		</script>
+
+	</div>
+</div>
+
+
+<div class="cjoText cjoText1">
+	360 VIEWER<br>
+	Show your product in a complete 360 degrees.
+</div>
+<div class="cjoText cjoText2">
+	Allow customers to virtually see 360 degrees of your product with 360 Spinn. With the technology used for 360 SPINN’s you can now go above and beyond the viewer’s normal shopping experience like never before.
+</div>
+<div class="cjoText cjoText3">CHANGE YOUR POINT OF VIEW</div>
+
+<div class="cjoContact">
+	<div class="cjoContactTitle">CONTACT</div>
+	<div class="cjoContactInfo">info@anguleris.com</div><div class="cjoContactInfo">1(224)484-8896</div>
+</div>
+_END;
+}
+
 
 function upload_resume_form()
 {

@@ -40,6 +40,10 @@ else if(isset($routes[0]))
 			{
 				contact_page_controller();
 			}
+			else if(strtolower($routes[1]) == "spinn")
+			{
+				spinn_page_controller();
+			}
 		}
 	}
 }
