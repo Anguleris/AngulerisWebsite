@@ -253,6 +253,6 @@ if ((dayobj.getMonth()+1!=monthfield)||(dayobj.getDate()!=dayfield)||(dayobj.get
 else
 returnval=true
 }
-if (returnval==false) input.select()
+//if (returnval==false) input.select()
 return returnval
 }
