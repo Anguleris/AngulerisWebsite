@@ -3,8 +3,8 @@ $(document).ready(
 	{
 		$("#cjoFormSubmit").click(getQuote);
 	
-		cjoMatchHeights(".cjoRow1Match", 768);
-		cjoMatchHeights(".cjoMatch");
+		//cjoMatchHeights(".cjoRow1Match", 768);
+		//cjoMatchHeights(".cjoMatch");
 		$(".cjoMobileBackToTop").click(
 			function()
 			{

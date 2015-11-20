@@ -98,7 +98,7 @@ function display_header($title, $stylesheets)
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 	<script src="https://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
 	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-	<script src="$urlbase/js/cjoMatchHeights.js"></script>
+	<!--script src="$urlbase/js/cjoMatchHeights.js"></script-->
 	<link rel="stylesheet" href="$urlbase/css/main.css">
 
 	<link rel="prefetch" href="$urlbase/images/content/BIMsmithButtonText.png">
@@ -429,7 +429,7 @@ function home_page_view()
 	<div class="row cjoRowInFluid">
 		<div class="col-md-6 cjoMainHalf">
 			<div class="cjoHalfInner">
-				<div class="cjoMainContentHeader cjoFourSquare">
+				<div class="cjoMainContentHeader cjoFourSquare" style="height:249px;">
 					<a href="https://www.bimsmith.com" target="_blank"><img src="$urlbase/images/content/BIMsmithButtonText.png" class="cjoMainContentImage cjoLeftContent"></a>
 					<div class="cjoMainContentLine"></div>
 				</div>
@@ -442,7 +442,7 @@ function home_page_view()
 		</div>
 		<div class="col-md-6 cjoMainHalf">
 			<div class="cjoHalfInner">
-				<div class="cjoMainContentHeader cjoFourSquare">
+				<div class="cjoMainContentHeader cjoFourSquare" style="height:249px;">
 					<a href="$urlbase/home/spinn" target="_blank"><img src="$urlbase/images/content/360Spinn.png" class="cjoMainContentImage cjoRightContent" id="cjoSpinnImage" ></a>
 					<div class="cjoMainContentLine"></div>
 				</div>

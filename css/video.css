@@ -59,6 +59,8 @@ body{background: none;}
 	#cjoMainContainer{position: relative;}
 	.cjoYoutubeImage{width: 300px; margin-left: 50px; height: 126px;}
 
+	.cjoMatch{height: 247px;}
+
 	.cjoYoutubeColumn{height: 247px; /*<-*/}
 	.cjoContentText{width: 480px; margin-right: 50px;}
 

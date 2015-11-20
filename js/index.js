@@ -15,9 +15,9 @@ $(document).ready(
 	function()
 	{
 	
-		cjoMatchHeights(".cjoMainContentHeader", 992);
-		cjoMatchHeights(".cjoMainHalf", 992);
-		cjoMatchHeights(".cjoParallaxBox", 768);
+		// cjoMatchHeights(".cjoMainContentHeader", 992);
+		// cjoMatchHeights(".cjoMainHalf", 992);
+		// cjoMatchHeights(".cjoParallaxBox", 768);
 		
 		
 		
