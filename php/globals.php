@@ -1,6 +1,6 @@
 <?php
 
-$urlbase = "http://localhost/AngulerisWebsite";
+$urlbase = "http://www.anguleris.com";
 $urlHomeRoute = $urlbase . "/" . "home";
 $urlStrategyRoute = $urlbase . "/" . "home" . "/" . "strategy";
 $urlVisualizationRoute = $urlbase . "/" . "home" . "/" . "visualization";

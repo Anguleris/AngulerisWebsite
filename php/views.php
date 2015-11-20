@@ -442,7 +442,7 @@ function home_page_view()
 		<div class="col-md-6 cjoMainHalf">
 			<div class="cjoHalfInner">
 				<div class="cjoMainContentHeader cjoFourSquare">
-					<a href="$urlbase/spinn/index.html" target="_blank"><img src="$urlbase/images/content/360Spinn.png" class="cjoMainContentImage cjoRightContent" id="cjoSpinnImage" ></a>
+					<a href="$urlbase/home/spinn" target="_blank"><img src="$urlbase/images/content/360Spinn.png" class="cjoMainContentImage cjoRightContent" id="cjoSpinnImage" ></a>
 					<div class="cjoMainContentLine"></div>
 				</div>
 				<div class="cjoMainContentText cjoFourSquare cjoRightContent">
@@ -833,7 +833,7 @@ function visualization_page_view()
 	<div class="container">
 		<div class="row">
 			<div class="col-sm-6 cjoVisContent cjoSpinnContent" style="margin:0px;">
-				<a href="$urlbase/spinn/index.html" target="_blank">
+				<a href="$urlbase/home/spinn" target="_blank">
 					<img src="$urlbase/images/content/360Spinn.png" class="cjoVisContentImage cjoSpinnImage"  style="width:85%;">
 				</a>
 				
@@ -844,7 +844,7 @@ function visualization_page_view()
 					<p>Allow customers to interact with your product in 360 degrees 
 						with Spinn™. This technology allows you to go above and 
 						beyond the viewer's normal e-commerce experience. 
-						<a href="$urlbase/spinn/index.html" target="_blank" style="color: #7CCFD7;">
+						<a href="$urlbase/home/spinn" target="_blank" style="color: #7CCFD7;">
 							Click here to learn more.
 						</a>
 					</p>
