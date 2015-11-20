@@ -47,6 +47,9 @@ body{background: none;}
 .cjoMainContentText{padding: 30px; font-size: 130%; background-color: #f2f2f2; color: #999; margin-bottom: 5px;}
 .cjoBottomContainer{padding-bottom: 50px;}
 
+#cjoMobileCashPadding{padding-bottom: 30px;}
+
+
 	
 @media screen and (min-width: 768px)
 {
@@ -82,7 +85,7 @@ body{background: none;}
 		
 	.cjoScatterContainer{height: 500px;}
 
-	.cjoMainHalf{padding: 5px;}
+	.cjoMainHalf{padding: 5px; height: 551px;}
 	.cjoMainContentHeader{margin-bottom: 10px; position: relative; padding-top: 70px; padding-bottom: 70px;}
 	.cjoMainContentImage{width: 410px;}
 	.cjoMainContentText{padding: 30px 80px;}
@@ -96,6 +99,8 @@ body{background: none;}
 @media screen and (min-width: 1200px)
 {
 	.cjoScatterContainer{height: 600px;}
+
+	.cjoMainHalf{height:512px;}
 
 	.cjoMainContentImage{width: 500px;}
 	.cjoMainContentText{max-width: 500px; margin-left: auto; margin-right: auto; padding-left: 0px; padding-right: 0px;}

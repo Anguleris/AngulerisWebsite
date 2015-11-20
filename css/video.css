@@ -31,7 +31,7 @@ body{background: none;}
 	.cjoVideoRow{padding-top: 30px; padding-bottom: 30px;}
 		
 	.cjoYoutubeColumn{background-color: #fff; padding-top: 30px;}
-	.cjoYoutubeImage{width: 250px;}
+	.cjoYoutubeImage{width: 250px; height: 106px;}
 	.cjoContentText{margin-bottom: 50px; display: block; margin-left: auto; margin-right: auto; width: 540px;}
 	.cjoMainContentText{font-size: 120%; padding-left: 375px; margin-bottom: 0px; border-radius: 0px; position: relative;}			
 	#cjoMobileVideo{display: none;}
@@ -45,8 +45,8 @@ body{background: none;}
 	.cjoContentText{text-align: left; padding-bottom: 0px; margin-bottom: 0px; padding-top: 0px; min-height: 0px; width: 80%;}
 	.cjoTextColumn{padding-top: 50px;}
 	.cjoLittleBlueBanner{width: 400px; font-size: 200%; margin-top: 100px;}
-	.cjoYoutubeColumn{padding-top: 50px;}
-	.cjoMatch{background-color: #eee; padding-bottom: 50px;}
+	.cjoYoutubeColumn{padding-top: 50px; height: 226px; /*<-*/}
+	.cjoMatch{background-color: #eee; padding-bottom: 50px;     height: 226px;}
 	.cjoDesktopVideo{width: 400px; height: 226px;}
 
 	#cjoYouTubeText{padding-top: 48px;}
@@ -57,7 +57,9 @@ body{background: none;}
 	.cjoMainContentText{padding-left: 585px;}
 	.cjoDesktopVideo{width: 500px; height: 282px;}
 	#cjoMainContainer{position: relative;}
-	.cjoYoutubeImage{width: 300px; margin-left: 50px;}
+	.cjoYoutubeImage{width: 300px; margin-left: 50px; height: 126px;}
+
+	.cjoYoutubeColumn{height: 247px; /*<-*/}
 	.cjoContentText{width: 480px; margin-right: 50px;}
 
 	#cjoYouTubeText{padding-top: 52px;}

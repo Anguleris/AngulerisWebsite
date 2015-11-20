@@ -30,6 +30,8 @@ body{background: none;}
 #cjoBottomInfoContainer{color: #999; text-align: center; font-size: 105%; margin-top: 100px; margin-bottom: 100px;}
 #cjoLittleBlueBanner{background-color: #7CCFD7; color: #fff; width: 180px; margin-left: auto; margin-right: auto; margin-top: 40px; margin-bottom: 20px;}
 
+.cjoCashImagePadding{padding-bottom: 30px;}
+
 @media screen and (min-width: 768px)
 {
 	#cjoMainContainerFluid{background-image: url("../images/background/strategy.jpg");}

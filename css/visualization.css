@@ -19,6 +19,7 @@ body{background: none;}
 #cjoStoveContainer{background-color: #eee; padding-bottom: 30px;}
 #cjoSpinnContainer{background-color: #fff; padding-left: 0px; padding-right: 0px;}
 .cjoSpinnContent{background-color: #eee; margin-bottom: 10px; position: relative;}	
+.cjoCashImagePadding{padding-bottom: 30px;}
 						
 @media screen and (min-width: 768px)
 {

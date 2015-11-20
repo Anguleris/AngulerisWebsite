@@ -102,7 +102,8 @@ function display_header($title, $stylesheets)
 	<link rel="stylesheet" href="$urlbase/css/main.css">
 
 	<link rel="prefetch" href="$urlbase/images/content/BIMsmithButtonText.png">
-	<link rel="prefetch" href="$urlbase/images/content/BIMsmithButtonText.png">
+	<link rel="prefetch" href="$urlbase/images/content/360Spinn.png">
+	<link rel="prefetch" href="$urlbase/images/content/youtube.png">
 _END;
 
 	foreach($stylesheets as $stylesheet)
@@ -751,7 +752,7 @@ function visualization_page_view()
 	<div class="container-fluid cjoMainInfoWhite">
 		<div class="container cjoMainInfoInner">
 			<div class="row">
-				<div class="col-sm-4 cjoMainInfoImageContainer cjoRow2Match">
+				<div class="col-sm-4 cjoMainInfoImageContainer cjoRow2Match cjoCashImagePadding">
 					<img class="cjoMainInfoImage" src="$urlbase/images/icons/money.png">
 				</div>
 				<div class="col-sm-8 cjoMainInfoTextBlock cjoRow2Match">
