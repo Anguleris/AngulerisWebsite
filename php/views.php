@@ -636,18 +636,10 @@ function strategy_page_view()
 				<img class="cjoMainInfoThisNotThatImage" src="$urlbase/images/icons/icon_this-not-this_text.png">
 			</div>
 			<div class="col-sm-6 col-sm-pull-6 cjoMainInfoTextBlock cjoStriveForText cjoRow4Match">
-				Lorem Ipsum is simply dummy text of
-				the printing and typesetting industry.
-				Lorem Ipsum has been the industry's
-				standard dummy text ever since the
-				1500s, when an unknown printer took
-				a galley of type and scrambled it to
-				make a type specimen book. It has
-				survived not only five centuries, but
-				also the leap into electronic typesetting,
-				remaining essentially unchanged.
-				It was popularised in the 1960s with
-				the release of
+				A good BIM strategy is much more than simply checking the box to say you have Revit files. The 
+				Anguleris team has learned this time and time again by working in the field and through working with 
+				hundreds of other brands. Let us help you create your own customized playbook for how to win big with 
+				your BIM Strategy.
 			</div>
 		</div>
 	</div>
