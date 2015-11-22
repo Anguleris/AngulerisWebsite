@@ -98,8 +98,9 @@ function display_header($title, $stylesheets)
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 	<script src="https://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
 	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-	<!--script src="$urlbase/js/cjoMatchHeights.js"></script-->
+	<script src="$urlbase/js/cjoMatchHeights.js"></script>
 	<link rel="stylesheet" href="$urlbase/css/main.css">
+	<script src="$urlbase/js/googleAnal.js"></script>
 
 	<link rel="prefetch" href="$urlbase/images/content/BIMsmithButtonText.png">
 	<link rel="prefetch" href="$urlbase/images/content/360Spinn.png">
