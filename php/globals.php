@@ -9,4 +9,5 @@ $urlTrainingRoute = $urlbase . "/" . "home" . "/" . "training";
 $urlContactRoute = $urlbase . "/" . "home" . "/" . "contact";
 
 
+
 ?>

@@ -4,7 +4,7 @@ require_once("php/views.php");
 function home_page_controller()
 {
 	$scripts = array("js/skrollr.js", "js/parallax.js", "js/main.js", "js/index.js");
-	display_header("Home", array("css/index.css"));
+	display_header("Home", array("css/index.css"), 0);
 	home_page_view();
 	display_footer($scripts);
 }
@@ -12,7 +12,7 @@ function home_page_controller()
 function strategy_page_controller()
 {
 	$scripts = array("slick/slick.js", "js/cjoVariableInputWidth.js", "js/main.js", "js/slideshowExtend.js", "js/getQuote.js", "js/strategy.js");
-	display_header("Strategy", array("css/strategy.css", "slick/slick.css", "slick/slick-theme.css"));
+	display_header("Strategy", array("css/strategy.css", "slick/slick.css", "slick/slick-theme.css"), 1);
 	strategy_page_view();
 	display_footer($scripts);
 }
@@ -20,7 +20,7 @@ function strategy_page_controller()
 function visualization_page_controller()
 {
 	$scripts = array("js/cjoVariableInputWidth.js", "js/main.js", "js/getQuote.js", "js/visualization.js");
-	display_header("Visualization", array("css/visualization.css"));
+	display_header("Visualization", array("css/visualization.css"), 2);
 	visualization_page_view();
 	display_footer($scripts);
 }
@@ -28,7 +28,7 @@ function visualization_page_controller()
 function video_page_controller()
 {
 	$scripts = array("js/cjoVariableInputWidth.js", "js/main.js", "js/getQuote.js", "js/video.js");
-	display_header("Video", array("css/video.css"));
+	display_header("Video", array("css/video.css"), 3);
 	video_page_view();
 	display_footer($scripts);
 }
@@ -36,7 +36,7 @@ function video_page_controller()
 function training_page_controller()
 {
 	$scripts = array("js/cjoVariableInputWidth.js", "js/main.js", "js/getQuote.js", "js/training.js");
-	display_header("Training", array("css/training.css"));
+	display_header("Training", array("css/training.css"), 4);
 	training_page_view();
 	display_footer($scripts);
 }
@@ -44,7 +44,7 @@ function training_page_controller()
 function contact_page_controller()
 {
 	$scripts = array("js/cjoVariableInputWidth.js", "js/main.js", "js/uploadResume.js", "js/contact.js");
-	display_header("Contact", array("css/contact.css"));
+	display_header("Contact", array("css/contact.css"), 5);
 	contact_page_view();
 	display_footer($scripts);
 }

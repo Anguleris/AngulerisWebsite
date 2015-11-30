@@ -76,7 +76,7 @@ _END;
 
 }
 
-function display_header($title, $stylesheets)
+function display_header($title, $stylesheets, $linkBarIndex = 0)
 {
 	global $urlbase, $urlHomeRoute, $urlStrategyRoute, $urlVisualizationRoute, $urlVideoRoute, $urlTrainingRoute, $urlContactRoute;
 	echo<<<_END
@@ -137,12 +137,27 @@ _END;
 			<td class="cjoHeaderLinkTableCell"><a class="cjoHeaderLink" href="$urlContactRoute">CONTACT</a></td>
 		</tr>
 		<tr>
+_END;
+
+	for($x = 0; $x < 6; $x++)
+	{
+		if($x == $linkBarIndex)
+		{
+			echo "<td><div class='cjoHeaderLinkBar' style='display: block;' data-permanent='1'></div></td>" . "\n";
+		}
+		else echo "<td><div class='cjoHeaderLinkBar' data-permanent='0'></div></td>" . "\n";
+	}
+
+/*
+<td><div class="cjoHeaderLinkBar"></td>
 			<td><div class="cjoHeaderLinkBar"></td>
 			<td><div class="cjoHeaderLinkBar"></td>
 			<td><div class="cjoHeaderLinkBar"></td>
 			<td><div class="cjoHeaderLinkBar"></td>
 			<td><div class="cjoHeaderLinkBar"></td>
-			<td><div class="cjoHeaderLinkBar"></td>
+*/
+	echo<<<_END
+			
 		</tr>
 	</table>
 	</div>
@@ -324,7 +339,7 @@ function home_page_view()
 
 <div class="container-fluid cjoMainContainer">
 	<div class="container cjoMainSubContainer">
-		<div class="cjoPageMainTitleText">Industry leading BIM Strategies start here.</div>
+		<div class="cjoPageMainTitleText">INDUSTRY LEADING BIM STRATEGIES START HERE.</div>
 		<div class="cjoPageMainSubtitleText">Your one stop BIM &amp; Visualization Department has arrived!</div>
 	</div>
 </div>
@@ -409,7 +424,7 @@ function home_page_view()
 
 <div class="container-fluid hidden-xs cjoScatterRow">
 	<div class="container cjoScatterContainer" data-anchor-target=".cjoScatterRow" data-bottom-top="top: 300px;" data-bottom="top: 0px;">
-		<div class="cjoScatterText">If your product goes into a building, <br> then we can make it BIM Ready.</div>
+		<div class="cjoScatterText">IF YOUR PRODUCT GOES INTO A BUILDING, <br> THEN WE CAN MAKE IT BIM READY.</div>
 		<img class="cjoScatterImage cjoScatterTracklight" src="$urlbase/images/scatter/tracklight.png">
 		<img class="cjoScatterImage cjoScatterFrames" src="$urlbase/images/scatter/frames.png" data-anchor-target=".cjoScatterContainer" data--100-bottom="left[swing]: 35%; top[swing]: 10%; width: 30%;" data-top="left: 20%; top: 0%; width: 0%;">
 		<img class="cjoScatterImage cjoScatterFridge" src="$urlbase/images/scatter/fridge.png" data-anchor-target=".cjoScatterContainer" data--100-bottom="left[swing]: 13%; top[swing]: 12%; width: 10%; opacity: 1;" data-top="left: 13%; top: 0%; width: 0%; opacity: 0;">
@@ -479,7 +494,7 @@ function home_page_view()
 		<a class="twitter-timeline"  href="https://twitter.com/Anguleris" data-widget-id="631893349692260353" data-chrome="noheader" data-tweet-limit="3">Tweets by @Anguleris</a>
 					
 		<div id="cjoTwitterFollow">
-			<a href="https://twitter.com/intent/follow?screen_name=Anguleris"><div id="cjoTwitterFollowButton">FOLLOW</div></a>
+			<a href="https://twitter.com/intent/follow?screen_name=Anguleris"><div id="cjoTwitterFollowButton">FOLLOW US</div></a>
 		</div>		
 	</div>
 	
@@ -573,7 +588,7 @@ function strategy_page_view()
 						to the people that use them in designs and blueprints. 
 					</div>
 					<div class="row">
-						<div class="col-sm-6">
+						<div class="col-sm-6 cjoStrategyManufacturerWebsiteParagraph">
 							<div class="cjoMainInfoTitle">Manufacturer Website</div>
 							<div class="cjoMainInfoText">
 								One key place that branded content should always appear 
@@ -584,7 +599,7 @@ function strategy_page_view()
 								you add another avenue for your products to be selected. 
 							</div>
 						</div>
-						<div class="col-sm-6">
+						<div class="col-sm-6 cjoStrategyAutodeskSeekParagraph">
 							<div class="cjoMainInfoTitle">Autodesk Seek</div>
 							<div class="cjoMainInfoText">
 								The Autodesk Seek web service enables designers to 
@@ -801,12 +816,12 @@ function visualization_page_view()
 			</div>
 			<div class="col-sm-6 cjoVisContent cjoStoveContent">
 				<div style="color: #999;"> 
-					<p style="color: #7CCFD7; font-weight: bold;">Product Shots</p>
+					<p class="cjoVisualizationStoveHeader">Product Shots</p>
 					<p>We create virtual representations of your product that are 
 						realistic, and at a fraction of the cost. Your product looks 
 						great, and it is ready to start generating revenue. 
 					</p>
-					<p style="color: #7CCFD7; padding-top:25px; font-weight: bold;">In Context Scenes</p>
+					<p class="cjoVisualizationStoveHeader" style="padding-top:25px;">In Context Scenes</p>
 					<p>Curious what your product will look like in relation to the 
 						rest of a room? The Anguleris designers create custom virtual 
 						spaces that show how your product looks and interacts in a 

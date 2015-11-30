@@ -82,12 +82,22 @@ $(document).ready(
 			{
 				
 				var barIndex = $(".cjoHeaderLink").index(this);
+				var barToShow = $(".cjoHeaderLinkBar").eq(barIndex);
+				
 				$(".cjoHeaderLinkBar").eq(barIndex).show();
+					
 			},
 			function()
 			{
 				var barIndex = $(".cjoHeaderLink").index(this);
-				$(".cjoHeaderLinkBar").eq(barIndex).hide();
+				//$(".cjoHeaderLinkBar").eq(barIndex).hide();
+				var barToHide = $(".cjoHeaderLinkBar").eq(barIndex).first();
+				if(barToHide.data("permanent") != "1")
+				{
+					barToHide.hide();
+					//window.alert(barToHide.data("permanent"));
+				}
+					
 			}
 		);
 		

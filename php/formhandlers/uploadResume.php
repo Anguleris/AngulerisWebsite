@@ -2,7 +2,8 @@
 	$serverRoot = $_SERVER['DOCUMENT_ROOT'];
 	$path = $serverRoot . "/files/uploadedresumes/";
 
-	$mailto = "webdev@anguleris.com";
+	$mailto = $mailServerSideRecipient;
+	//$mailto = "webdev@anguleris.com";
 	$mailFromName = "Webdev at Anguleris";
 	$emailBody = "";
 	$isAsync = false;

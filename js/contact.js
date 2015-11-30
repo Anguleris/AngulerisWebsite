@@ -97,20 +97,7 @@ $(document).ready(
 			}
 		);
 		
-		$(".cjoHeaderLink").hover(
-			function()
-			{
-				
-				var barIndex = $(".cjoHeaderLink").index(this);
-				console.log(barIndex);
-				$(".cjoHeaderLinkBar").eq(barIndex).show();
-			},
-			function()
-			{
-				var barIndex = $(".cjoHeaderLink").index(this);
-				$(".cjoHeaderLinkBar").eq(barIndex).hide();
-			}
-		);
+		
 		$(".cjoMobileBackToTop").click(
 			function()
 			{

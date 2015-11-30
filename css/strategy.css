@@ -16,6 +16,7 @@ body{background: none;}
 .cjoContentHeader{background-color: #eee; margin-bottom: 0px;}
 .cjoContentImage{margin-top: 20px; margin-bottom: 0px;}
 .cjoContentText{padding-bottom: 30px;}
+	
 		
 .cjoStriveForText{color: #999; background-color: #f2f2f2; padding-top: 20px;}
 .cjoStriveForImageContainer{padding-left: 40px;}
@@ -44,6 +45,9 @@ body{background: none;}
 			
 	#cjoBimTowerContainer{padding-top: 120px; padding-bottom: 120px;}
 	.cjoBimTowerImage{width: 600px;}
+		
+	.cjoStrategyManufacturerWebsiteParagraph{padding-right: 30px;}
+	.cjoStrategyAutodeskSeekParagraph{padding-left: 30px;}
 		
 	p > br{display: none;}
 	.cjoStandardHalfContent{margin-bottom: 0px;}

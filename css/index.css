@@ -35,8 +35,8 @@ body{background: none;}
 		
 .cjoTwitter{margin-bottom: 50px;}
 .twitter-timeline{margin-left: auto; margin-right: auto;}
-#cjoTwitterFollow{width:100px; margin:auto; padding-top:20px;}
-#cjoTwitterFollowButton{background-color: #7CCFD7; color: #fff; width: 180px; margin-left: auto; margin-right: auto; margin-top: 40px; margin-bottom: 20px; font-size:105%; padding-top: 10px; padding-bottom:10px; width:100px;/*color:#fff; background-color:#7ccfd7;*/}
+#cjoTwitterFollow{margin:auto; padding-top:20px;}
+#cjoTwitterFollowButton{background-color: #7CCFD7; color: #fff; width: 120px; margin-left: auto; margin-right: auto; margin-top: 40px; margin-bottom: 20px; font-size:105%; padding-top: 5px; padding-bottom:5px; padding-left: 5px; padding-right: 5px;}
 #cjoTwitterContainer{text-align: center; background-color: #f2f2f2; padding-bottom:40px;}
 		
 .cjoNoPadding{padding-right: 0px; padding-left: 0px;}
@@ -73,7 +73,7 @@ body{background: none;}
 	.cjoMainContentText > br{display: none;}
 	.cjoBottomContainer{padding-bottom: 0px;}
 
-	#cjoTwitterFollowButton{font-size:150%;}
+	#cjoTwitterFollowButton{font-size:150%; width: 150px;}
 }
 @media screen and (min-width: 992px)
 {

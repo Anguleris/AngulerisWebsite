@@ -83,11 +83,11 @@ function sendEmail($mailhost, $mailusername, $mailpassword, $mailport, $recipien
 }*/
 function sendEmail($mailhost, $mailUsername, $mailPassword, $mailPort, $mailServerSideRecipient, $subject, $emailBody)
 {
-	$to = "webdev@anguleris.com";
+	$to = $mailServerSideRecipient;
 	$subject = $subject;
 	$message = $emailBody;
-	$headers = 'From: webdev@anguleris.com' . "\r\n" . 'Reply-To: webdev@anguleris.com';
-	$sent = mail($to, $subject, $message, $headers, "-fwebdev@anguleris.com");
+	$headers = 'From: ' . $mailServerSideRecipient . "\r\n" . 'Reply-To: ' . $mailServerSideRecipient;
+	$sent = mail($to, $subject, $message, $headers, "-f" . $mailServerSideRecipient);
 	return $sent;
 }
 

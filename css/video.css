@@ -64,5 +64,5 @@ body{background: none;}
 	.cjoYoutubeColumn{height: 247px; /*<-*/}
 	.cjoContentText{width: 480px; margin-right: 50px;}
 
-	#cjoYouTubeText{padding-top: 52px;}
+	#cjoYouTubeText{padding-top: 52px; text-align: right;}
 }
