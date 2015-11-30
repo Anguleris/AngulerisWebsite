@@ -1,4 +1,5 @@
 <?php
+	require_once("globals.php");
 	$serverRoot = $_SERVER['DOCUMENT_ROOT'];
 	$path = $serverRoot . "/files/uploadedresumes/";
 
