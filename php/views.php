@@ -1127,7 +1127,6 @@ function contact_page_view()
 		results.
 <br><br>We are always hiring, so if you are interested in joining our team, fill out our inquiry form <span id="cjoLittleBlueBanner"><u>here.</u></span>
 		
-		<!--div id="cjoLittleBlueBanner">UPLOAD RESUME</div-->
 _END;
 	upload_resume_form();
 	echo<<<_END
@@ -1177,13 +1176,15 @@ boast a beautiful view of the Fox River
 
 <div class="container-fluid cjoResourcesContainer" id="cjoResourcesAnchor">
 	<div class="container">
-		<div class="cjoResourcesTitle">RESOURCES YOU MAY FIND HANDY</div>
-		<div class="cjoResourcesText">
-			<a href="$urlbase/files/Revit Model Content Style Guide.pdf" target="_blank">Revit Model Content Style Guide</a><br>
-			<a href="$urlbase/files/Revit Master Shared Parameters.txt" target="_blank">Master Shared Parameters</a><br>
-			<a href="$urlbase/files/BusinessSideOfBim.pdf" target="_blank">The Business Side of BIM</a><br>
-		</div>
-	</div>
+		<div class="cjoResourcesBlock">
+			<div class="cjoResourcesTitle">RESOURCES YOU MAY FIND HANDY</div>
+			<div class="cjoResourcesText">
+				<a href="$urlbase/files/Revit Model Content Style Guide.pdf" target="_blank">Revit Model Content Style Guide</a><br>
+				<a href="$urlbase/files/Revit Master Shared Parameters.txt" target="_blank">Master Shared Parameters</a><br>
+				<a href="$urlbase/files/BusinessSideOfBim.pdf" target="_blank">The Business Side of BIM</a><br>
+			</div>
+		</div></div>
+</div>
 </div>
 
 <div class="container-fluid" id="cjoBlogComingSoon">
@@ -1623,7 +1624,10 @@ function upload_resume_form()
 			<div id="cjoPopupFormStep2Tab">
 				<span class="cjoPopupFormLabel">Upload Resume<span class="cjoRequiredAsterisk">*</span></span>
 				<div class="cjoFormInput">
+					<!--hacky way to style choose file option-->
+					<!--div class="cjoPopupFormStepButton" style="z-index: 1; position: absolute; text-align:left;">Choose File</div-->
 					<input id="cjoPopupFormResumeFile" name="resumeFile" type="file" class="cjoPopupFormInput" data-required="true">
+					<!^^style="z-index: 5; opacity: 0; position: relative; height: 48px;">
 				</div>
 				<br>
 				<div style="width: 100%;">

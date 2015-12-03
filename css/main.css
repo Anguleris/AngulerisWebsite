@@ -40,7 +40,7 @@ input{background-color: #fff; color: #999; border: none;}
 #cjoPopupFormStep1Tab, #cjoPopupFormStep2Tab{padding-left:30px; padding-right: 20px;}
 .cjoCurrentTab{background-color: #EEE; color:#999;}
 .cjoNoncurrentTab{background-color: #999; color:#EEE;}
-#cjoPopupRequiredField{width:100%; padding: 15px 30px;}
+#cjoPopupRequiredField{width:100%; padding: 15px 30px; font-size: 80%;}
 #cjoPopupFormNextStepButton, #cjoFormSubmit{padding: 0px 10px; display: block; margin:auto;}
 #cjoFormNotes{margin-top:10px;}
 
