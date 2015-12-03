@@ -1,4 +1,5 @@
 <?php
+require_once("php/globals.php");
 require_once("php/controllers.php");
 
 $requestUri = getCurrentUri();
