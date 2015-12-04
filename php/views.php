@@ -332,7 +332,7 @@ ANGULERIS WEB SITE VIEWS
 
 function home_page_view()
 {
-	global $urlbase, $urlHomeRoute, $urlStrategyRoute, $urlVisualizationRoute, $urlVideoRoute, $urlTrainingRoute, $urlContactRoute;
+	global $urlbase, $urlHomeRoute, $urlStrategyRoute, $urlVisualizationRoute, $urlVideoRoute, $urlTrainingRoute, $urlContactRoute, $urlSpinnRoute;
 	
 	echo<<<_END
 	
@@ -459,7 +459,7 @@ function home_page_view()
 		<div class="col-md-6 cjoMainHalf">
 			<div class="cjoHalfInner">
 				<div class="cjoMainContentHeader cjoFourSquare" style="height:249px;">
-					<a href="$urlbase/home/spinn" target="_blank"><img src="$urlbase/images/content/360Spinn.png" class="cjoMainContentImage cjoRightContent" id="cjoSpinnImage" ></a>
+					<a href="$urlSpinnRoute" target="_blank"><img src="$urlbase/images/content/360Spinn.png" class="cjoMainContentImage cjoRightContent" id="cjoSpinnImage" ></a>
 					<div class="cjoMainContentLine"></div>
 				</div>
 				<div class="cjoMainContentText cjoFourSquare cjoRightContent">
@@ -736,7 +736,7 @@ _END;
 
 function visualization_page_view()
 {
-	global $urlbase, $urlHomeRoute, $urlStrategyRoute, $urlVisualizationRoute, $urlVideoRoute, $urlTrainingRoute, $urlContactRoute;
+	global $urlbase, $urlHomeRoute, $urlStrategyRoute, $urlVisualizationRoute, $urlVideoRoute, $urlTrainingRoute, $urlContactRoute, $urlSpinnRoute;
 	echo<<<_END
 	
 <div class="container-fluid" id="cjoMainContainerOuter">
@@ -845,7 +845,7 @@ function visualization_page_view()
 	<div class="container">
 		<div class="row">
 			<div class="col-sm-6 cjoVisContent cjoSpinnContent" style="margin:0px;">
-				<a href="$urlbase/home/spinn" target="_blank">
+				<a href="$urlSpinnRoute" target="_blank">
 					<img src="$urlbase/images/content/360Spinn.png" class="cjoVisContentImage cjoSpinnImage"  style="width:85%;">
 				</a>
 				
@@ -856,7 +856,7 @@ function visualization_page_view()
 					<p>Allow customers to interact with your product in 360 degrees 
 						with Spinn™. This technology allows you to go above and 
 						beyond the viewer's normal e-commerce experience. 
-						<a href="$urlbase/home/spinn" target="_blank" style="color: #7CCFD7;">
+						<a href="$urlSpinnRoute" target="_blank" style="color: #7CCFD7;">
 							Click here to learn more.
 						</a>
 					</p>

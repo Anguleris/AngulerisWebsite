@@ -7,6 +7,7 @@ $urlVisualizationRoute = $urlbase . "/" . "home" . "/" . "visualization";
 $urlVideoRoute = $urlbase . "/" . "home" . "/" . "video";
 $urlTrainingRoute = $urlbase . "/" . "home" . "/" . "training";
 $urlContactRoute = $urlbase . "/" . "home" . "/" . "contact";
+$urlSpinnRoute = "http://360spinner.com";
 
 //CSS RELATIVE PATHS
 $cssFilePaths = array(
