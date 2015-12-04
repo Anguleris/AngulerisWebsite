@@ -1,6 +1,5 @@
 <?php
 require_once("globals.php");
-
 $conn = mysqli_connect($dbhost, $dbuser, $dbpassword, $dbdatabase);
 
 $firstName = $_POST["firstName"];

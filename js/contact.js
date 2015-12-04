@@ -33,57 +33,17 @@ $(document).ready(
 		$(".cjoMailingListButton").click(
 			function()
 			{
-				var firstNameValue = $("#mailingListFirstName").val();
-				var lastNameValue = $("#mailingListLastName").val();
-				var emailValue = $("#mailingListEmail").val();
-			
-				if(allFieldsFilledOut())
+				submitMailingListForm();
+			}
+		);
+		
+		$(".cjoMailingListInput").keypress(
+			function(ev)
+			{
+				if(ev.which == 13)
 				{
-					if(emailAddressIsValid(emailValue))
-					{
-						/*
-						var requestString = "firstName=" + firstName + "&lastName=" + lastName + "&email=" + email;
-					
-						var xmlhttp;
-						if (window.XMLHttpRequest)
-						{
-							xmlhttp=new XMLHttpRequest();
-						}
-						else
-						{
-							xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
-						}
-						
-						xmlhttp.onreadystatechange = function()
-						{
-							if(xmlhttp.readyState == 4 && xmlhttp.status == 200)
-							{
-								displayMessageFromAddToMailingList(xmlhttp.responseText);
-							}
-						}
-						
-						xmlhttp.open("GET", "http://localhost/Anguleris/php/formhandlers/addToMailingList.php?" + requestString, true);
-						xmlhttp.send();
-						*/
-						$.post("http://www.anguleris.com/php/formhandlers/addToMailingList.php",
-							{
-								firstName: firstNameValue,
-								lastName: lastNameValue,
-								email: emailValue
-							},
-							function(data, status)
-							{
-								if(status == "success")
-								{
-									displayMessageFromAddToMailingList(data);
-								}
-								else window.alert("There was a server error, and we weren't able to add you to the mailing list");
-							}
-						);
-					}
-					else window.alert("The email address you entered is invalid.");
+					submitMailingListForm();
 				}
-				else window.alert("Please fill out all three fields");
 			}
 		);
 		
@@ -155,6 +115,38 @@ $(document).ready(
 ////////////////
 	}
 )
+
+function submitMailingListForm()
+{
+	var formActionURL = $("#cjoMailingListForm").data("url");
+	var firstNameValue = $("#mailingListFirstName").val();
+	var lastNameValue = $("#mailingListLastName").val();
+	var emailValue = $("#mailingListEmail").val();
+
+	if(allFieldsFilledOut())
+	{
+		if(emailAddressIsValid(emailValue))
+		{
+			$.post(formActionURL,
+				{
+					firstName: firstNameValue,
+					lastName: lastNameValue,
+					email: emailValue
+				},
+				function(data, status)
+				{
+					if(status == "success")
+					{
+						displayMessageFromAddToMailingList(data);
+					}
+					else window.alert("There was a server error, and we weren't able to add you to the mailing list");
+				}
+			);
+		}
+		else window.alert("The email address you entered is invalid.");
+	}
+	else window.alert("Please fill out all three fields");
+}
 
 function allFieldsFilledOut()
 {

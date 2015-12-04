@@ -1100,7 +1100,7 @@ function contact_page_view()
 			</div>
 			<div class="col-sm-6 cjoNoPadding cjoMailingListColumn">
 				<div class="cjoContactHeader2">JOIN OUR MAILING LIST</div>
-				<form action="$urlbase/php/formhandlers/mailingList.php" method="post">
+				<form id="cjoMailingListForm" action="$urlbase/php/formhandlers/addToMailingList.php" method="post" data-url="$urlbase/php/formhandlers/addToMailingList.php">
 					<input class="cjoMailingListInput" type="text" id="mailingListFirstName" name="mailingListFirstName" maxlength="100" placeholder="First Name" required><br>
 					<input class="cjoMailingListInput" type="text" id="mailingListLastName" name="mailingListLastName" maxlength="100" placeholder="Last Name" required><br>
 					<input class="cjoMailingListInput" type="email" id="mailingListEmail" name="mailingListEmail" maxlength="250" placeholder="Email" required><br>
