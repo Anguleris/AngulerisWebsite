@@ -2,6 +2,7 @@
 body{background: none;}
 #cjoMainContainerOuter{background-image: url("../images/background/visualization_mobile.jpg"); background-size: cover; background-position: center center; background-color: #000;}
 #cjoMainContainer{background: none; padding-top: 300px;}
+.cjoMainContainerMid{}
 
 .cjoPageMainTitleText{padding-top: 50px;}
 .cjoPageMainSubtitleText{margin-bottom: 100px;}
@@ -16,6 +17,8 @@ body{background: none;}
 .cjoVisContent{padding-top: 30px; padding-bottom: 30px;}
 .cjoVisContentImage{width: 70%; display: block; margin-left: auto; margin-right: auto;}
 		
+		
+
 #cjoStoveContainer{background-color: #eee; padding-bottom: 30px;}
 .cjoVisualizationStoveHeader{color: #7CCFD7; font-size: 120%;}
 
@@ -25,7 +28,8 @@ body{background: none;}
 						
 @media screen and (min-width: 768px)
 {
-	#cjoMainContainerOuter{background-image: url("../images/background/visualizationpage.jpg");}
+	#cjoMainContainerOuter{background: none;}
+	.cjoMainContainerMid{background-image: url("../images/background/visualizationpage.jpg"); background-size: cover; background-position: center center;}
 	
 	.cjoPageMainSubtitleText{margin-bottom: 200px;}
 	.cjoPageMainSubtitleText > br{display: none;}		

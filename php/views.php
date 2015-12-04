@@ -739,12 +739,15 @@ function visualization_page_view()
 	global $urlbase, $urlHomeRoute, $urlStrategyRoute, $urlVisualizationRoute, $urlVideoRoute, $urlTrainingRoute, $urlContactRoute;
 	echo<<<_END
 	
-	<div class="container-fluid" id="cjoMainContainerOuter">
-	<div class="container" id="cjoMainContainer">
-		<div class="cjoCircleContainer"><img class="cjoCircleImage" style="left:50%; margin-left:-70px; top: 50%; margin-top: -70px; width: 140px; position: relative;" src="$urlbase/images/icons/camera.png"></div>
-		<div class="cjoPageMainTitleText">BRING YOUR PRODUCT TO LIFE</div>
-		<div class="cjoPageMainSubtitleText">3D Visualization is the way to go these days. <br>Great quality, less hassle.</div>
-		
+<div class="container-fluid" id="cjoMainContainerOuter">
+	<div class="container-fluid cjoNoPadding cjoMainContainerMid">
+	
+		<div class="container" id="cjoMainContainer">
+			<div class="cjoCircleContainer"><img class="cjoCircleImage" style="left:50%; margin-left:-70px; top: 50%; margin-top: -70px; width: 140px; position: relative;" src="$urlbase/images/icons/camera.png"></div>
+			<div class="cjoPageMainTitleText">BRING YOUR PRODUCT TO LIFE</div>
+			<div class="cjoPageMainSubtitleText">3D Visualization is the way to go these days. <br>Great quality, less hassle.</div>
+			
+		</div>
 	</div>
 	<div class="container-fluid cjoMainInfoGrey">
 		<div class="container cjoMainInfoInner">
