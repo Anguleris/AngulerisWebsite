@@ -899,7 +899,7 @@ function video_page_view()
 		<div class="container cjoMainInfoInner">
 			<div class="row">
 				<div class="col-sm-4 cjoMainInfoImageContainer cjoRow1Match">
-					<img class="cjoMainInfoImage" src="$urlbase/images/icons/icon_video-camera.png">
+					<img class="cjoMainInfoImage cjoVideoPageCameraImage" src="$urlbase/images/icons/icon_video-camera.png">
 				</div>
 				<div class="col-sm-8 cjoMainInfoTextBlock cjoRow1Match">
 					<div class="cjoMainInfoTitle">VIDEO MARKETING</div>

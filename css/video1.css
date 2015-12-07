@@ -29,6 +29,7 @@ body{background: none;}
 	.cjoPageMainSubtitleText{margin-bottom: 200px;}
 		
 	.cjoVideoRow{padding-top: 30px; padding-bottom: 30px;}
+	.cjoVideoPageCameraImage{top: 125%;}
 		
 	.cjoYoutubeColumn{background-color: #fff; padding-top: 30px;}
 	.cjoYoutubeImage{width: 250px; height: 106px;}
