@@ -22,7 +22,7 @@ function registerCarouselImageEventHandlers()
 	$(".cjoCarouselImage").click(
 		function()
 		{
-			var imageSource = $(this).attr("src");
+			var imageSource = $(this).data("large");
 			$(".cjoBlackOverlay").show();
 			$(".cjoCarouselImageExpanded").attr("src", imageSource).show("scale");
 		}

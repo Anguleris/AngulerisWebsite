@@ -21,7 +21,7 @@ body{background: none;}
 .cjoStriveForText{color: #999; background-color: #f2f2f2; padding-top: 20px;}
 .cjoStriveForImageContainer{padding-left: 40px;}
 .cjoMainInfoThisNotThatImage{display: block; width: 200px; margin:auto;}
-.cjoStriveForTitle{padding-left: 30px; padding-top: 40px;}
+.cjoStriveForTitle{padding-left: 24px; padding-top: 40px;}
 .cjoThisText{position: absolute; top: 85%; left:20%; font-size: 140%;}
 		
 .cjoCarouselContainer{padding-top: 40px; padding-bottom: 10px; position: relative;}
@@ -41,6 +41,7 @@ body{background: none;}
 	.cjoPageMainSubtitleText > br{display: none;}
 
 	.cjoStriveForImageContainer{position: relative; padding-top: 20px;}
+	.cjoStriveForTitle{padding-left: 22px; padding-top: 40px;}
 	.cjoMainInfoThisNotThatImage{width: 330px; /*height: 130px*/; position: absolute; right: 0px; top: 50%; margin-top: -175px;}
 			
 	#cjoBimTowerContainer{padding-top: 120px; padding-bottom: 120px;}

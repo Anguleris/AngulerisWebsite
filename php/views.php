@@ -673,16 +673,16 @@ function strategy_page_view()
 <div class="cjoCarouselContainer">
 	<img class="cjoCarouselImageExpanded" src="">
 	<div class="orthoCarouselDesktop">
-		<div><img class="cjoCarouselImage" src="$urlbase/images/Slideshow images/slideshow_drink-fountain.png"></div>	
-		<div><img class="cjoCarouselImage" src="$urlbase/images/Slideshow images/slideshow_table.png"></div>	
-		<div><img class="cjoCarouselImage" src="$urlbase/images/Slideshow images/slideshow_couch.png"></div>		
-		<div><img class="cjoCarouselImage" src="$urlbase/images/Slideshow images/slideshow_heater.png"></div>		
-		<div><img class="cjoCarouselImage" src="$urlbase/images/Slideshow images/slideshow_window.png"></div>		
-		<div><img class="cjoCarouselImage" src="$urlbase/images/Slideshow images/slideshow_phone.png"></div>		
-		<div><img class="cjoCarouselImage" src="$urlbase/images/Slideshow images/slideshow_sink.png"></div>		
-		<div><img class="cjoCarouselImage" src="$urlbase/images/Slideshow images/slideshow_drain.png"></div>		
-		<div><img class="cjoCarouselImage" src="$urlbase/images/Slideshow images/slideshow_white-object.png"></div>	
-		<div><img class="cjoCarouselImage" src="$urlbase/images/Slideshow images/slideshow_water-heater.png"></div>		
+		<div><img class="cjoCarouselImage" src="$urlbase/images/Slideshow images/slideshow_drink-fountain.png" data-large="$urlbase/images/Slideshow images/large/slideshow_drink-fountain.png"></div>	
+		<div><img class="cjoCarouselImage" src="$urlbase/images/Slideshow images/slideshow_table.png" data-large="$urlbase/images/Slideshow images/large/slideshow_table.png"></div>	
+		<div><img class="cjoCarouselImage" src="$urlbase/images/Slideshow images/slideshow_couch.png" data-large="$urlbase/images/Slideshow images/large/slideshow_couch.png"></div>		
+		<div><img class="cjoCarouselImage" src="$urlbase/images/Slideshow images/slideshow_heater.png" data-large="$urlbase/images/Slideshow images/large/slideshow_heater.png"></div>		
+		<div><img class="cjoCarouselImage" src="$urlbase/images/Slideshow images/slideshow_window.png" data-large="$urlbase/images/Slideshow images/large/slideshow_window.png"></div>		
+		<div><img class="cjoCarouselImage" src="$urlbase/images/Slideshow images/slideshow_phone.png" data-large="$urlbase/images/Slideshow images/large/slideshow_phone.png"></div>		
+		<div><img class="cjoCarouselImage" src="$urlbase/images/Slideshow images/slideshow_sink.png" data-large="$urlbase/images/Slideshow images/large/slideshow_sink.png"></div>		
+		<div><img class="cjoCarouselImage" src="$urlbase/images/Slideshow images/slideshow_drain.png" data-large="$urlbase/images/Slideshow images/large/slideshow_drain.png"></div>		
+		<div><img class="cjoCarouselImage" src="$urlbase/images/Slideshow images/slideshow_white-object.png" data-large="$urlbase/images/Slideshow images/large/slideshow_white-object.png"></div>	
+		<div><img class="cjoCarouselImage" src="$urlbase/images/Slideshow images/slideshow_water-heater.png" data-large="$urlbase/images/Slideshow images/large/slideshow_water-heater.png"></div>		
 	</div>
 </div>
 

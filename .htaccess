@@ -1,3 +1,8 @@
+### activate mod_expires
+###ExpiresActive On
+### Expire .gif's 1 month from when they're accessed
+###ExpiresByType image/gif A2592000
+###ExpiresByType image/jpeg A2592000
 Options -MultiViews
 RewriteEngine On
 RewriteCond %{REQUEST_FILENAME} !-f
