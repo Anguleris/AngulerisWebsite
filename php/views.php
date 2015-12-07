@@ -1184,7 +1184,7 @@ boast a beautiful view of the Fox River
 			<div class="cjoResourcesTitle">RESOURCES YOU MAY FIND HANDY</div>
 			<div class="cjoResourcesText">
 				<a href="$urlbase/files/Revit Model Content Style Guide.pdf" target="_blank">Revit Model Content Style Guide</a><br>
-				<a href="$urlbase/files/Revit Master Shared Parameters.txt" target="_blank">Master Shared Parameters</a><br>
+				<a href="$urlbase/files/Revit Master Shared Parameters.txt" target="_blank" download>Master Shared Parameters</a><br>
 				<a href="$urlbase/files/BusinessSideOfBim.pdf" target="_blank">The Business Side of BIM</a><br>
 			</div>
 		</div></div>
