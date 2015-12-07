@@ -40,6 +40,9 @@ body
 }
 #wr360container{margin-left: auto; margin-right: auto;}
 
+#wr360PlayerId{position: relative;}
+#coverItUp{width: 200px; height: 20px; background-color: #fff; position: absolute; top: 0px; right: 0px; z-index: 20000;}
+
 .cjoSwapButton{width: 10px; position: absolute; top: 50px; color: #fff; padding: 5px; cursor: pointer; }
 #cjoPrevButton{right: 50%; margin-right: 100px;}
 #cjoNextButton{left: 50%; margin-left: 100px;}
@@ -113,6 +116,7 @@ body
 	<div id="content">
 
 		<div id="wr360PlayerId" class="wr360_player" data-configFile="Publish/360_assets/Mailbox/mailbox.xml">
+			<div id="coverItUp"></div>
 		</div>
 
 		<script language="javascript" type="text/javascript">
