@@ -12,9 +12,9 @@ $urlSpinnRoute = "http://360spinner.com";
 //CSS RELATIVE PATHS
 $cssFilePaths = array(
 	"main"=>"css/main1.css",
-	"index"=>"css/index1.css",
-	"strategy"=>"css/strategy1.css",
-	"video"=>"css/video1.css",
+	"index"=>"css/index2.css",
+	"strategy"=>"css/strategy2.css",
+	"video"=>"css/video2.css",
 	"visualization"=>"css/visualization1.css",
 	"training"=>"css/training1.css",
 	"contact"=>"css/contact1.css",
