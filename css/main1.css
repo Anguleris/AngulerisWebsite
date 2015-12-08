@@ -61,7 +61,7 @@ input{background-color: #fff; color: #999; border: none;}
 .cjoInternalLinkContainer{padding-top: 20px; padding-bottom: 20px; padding-left: 20px;}
 .cjoInternalLinkCell{text-align: center; padding: 0px 20px; padding-bottom: 10px;}
 
-#cjoMainContainer{padding-top: 200px; background-color: #000;}
+#cjoMainContainer{padding-top: 200px; background-color: #fff;}
 .cjoMainSubContainer{padding-right: 0px; padding-left: 0px;}
 #cjoHomePageTitleText{width: 100%; font-size: 150%; text-align: center; margin-bottom: 250px;}
 #cjoMobileDropdownMenu{width: 100%; height: auto; position: fixed; right: 0px; top: 50px; padding-left: 20px; padding-top: 20px; z-index: 1000; background-color: rgba(255, 255, 255, 0.97); display: none;}

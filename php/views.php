@@ -728,7 +728,7 @@ _END;
 
 	echo<<<_END
 	
-	<div class="container" style="padding-bottom: 50px;">
+	<div class="container" style="padding-top: 30px;">
 		<img class="cjoManufacturer" data-manufacturerstacked="$urlbase/images/logo/manufacturersStacked.png" data-manufacturerline="$urlbase/images/logo/manufacturersLine.png" src="$urlbase/images/logo/manufacturersStacked.png"></div>
 	</div>
 </div>
@@ -1300,8 +1300,8 @@ function upload_resume_form()
 				<br>
 				<span>Phone<span class="cjoRequiredAsterisk">*</span></span>
 				<div class="cjoFormInput">
-					<input id="cjoFormPhone1" name="phone1" type="text" class="cjoPopupFormInput cjoPopupFormPhoneNumber" maxlength="3" placeholder="###" data-required="true">-
-					<input id="cjoFormPhone2" name="phone2" type="text" class="cjoPopupFormInput cjoPopupFormPhoneNumber" maxlength="3" placeholder="###" data-required="true">-
+					<input id="cjoFormPhone1" name="phone1" type="text" class="cjoPopupFormInput cjoPopupFormPhoneNumber" maxlength="3" placeholder="###" data-required="true"> -
+					<input id="cjoFormPhone2" name="phone2" type="text" class="cjoPopupFormInput cjoPopupFormPhoneNumber" maxlength="3" placeholder="###" data-required="true"> -
 					<input id="cjoFormPhone3" name="phone3" type="text" class="cjoPopupFormInput cjoPopupFormPhoneNumber" maxlength="4" placeholder="####" data-required="true">
 				</div>
 				<br>
@@ -1627,11 +1627,10 @@ function upload_resume_form()
 			</div>
 			<div id="cjoPopupFormStep2Tab">
 				<span class="cjoPopupFormLabel">Upload Resume<span class="cjoRequiredAsterisk">*</span></span>
-				<div class="cjoFormInput">
-					<!--hacky way to style choose file option-->
-					<!--div class="cjoPopupFormStepButton" style="z-index: 1; position: absolute; text-align:left;">Choose File</div-->
-					<input id="cjoPopupFormResumeFile" name="resumeFile" type="file" class="cjoPopupFormInput" data-required="true">
-					<!^^style="z-index: 5; opacity: 0; position: relative; height: 48px;">
+				<div style="display:inline-block;">
+					<input type="file" name="resumeFile" id="cjoPopupFormResumeFile" class="cjoPopupFormResumeInput" style="width: 0.1px; height: 0.1px; opacity: 0; overflow: hidden; position: absolute; z-index: -1;"/>
+
+					<div class="cjoPopupFormStepButton"><label id="cjoLabel" for="cjoPopupFormResumeFile">Choose a file</label></div>
 				</div>
 				<br>
 				<div style="width: 100%;">
