@@ -1,21 +1,23 @@
 var maxFileSize = 2000000;
 var fileSize = 0;
 
-if(document.getElementById("file").files[0])//cjoPopupFormResumeFile
+if(document.getElementById("cjoPopupFormResumeFile").files[0])
 {
-	fileSize = document.getElementById("file").files[0].size;//cjoPopupFormResumeFile
+	fileSize = document.getElementById("cjoPopupFormResumeFile").files[0].size;
 	console.log(fileSize);
 }
 
 $(document).ready(
 	function()
 	{
-		$("#file").change(//"#cjoPopupFormResumeFile").change(
+		$("#cjoPopupFormResumeFile").change(
 			function()
 			{
-				fileSize = this.files[0].size;
-				//console.log("file size is: " + fileSize);
-				$("#cjolabel").text(this.files[0].name);
+				fileSize = this.files[0].size;				
+				if(maxFileSize < fileSize)
+					window.alert("File size must be less than 2MB");
+				else
+					$("#cjoLabel").text(this.files[0].name);		
 			}
 		);
 	}

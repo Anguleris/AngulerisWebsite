@@ -678,8 +678,8 @@ function strategy_page_view()
 		<div><img class="cjoCarouselImage" src="$urlbase/images/Slideshow images/slideshow_couch.png" data-large="$urlbase/images/Slideshow images/large/slideshow_couch.png"></div>		
 		<div><img class="cjoCarouselImage" src="$urlbase/images/Slideshow images/slideshow_heater.png" data-large="$urlbase/images/Slideshow images/large/slideshow_heater.png"></div>		
 		<div><img class="cjoCarouselImage" src="$urlbase/images/Slideshow images/slideshow_window.png" data-large="$urlbase/images/Slideshow images/large/slideshow_window.png"></div>		
-		<div><img class="cjoCarouselImage" src="$urlbase/images/Slideshow images/slideshow_phone.png" data-large="$urlbase/images/Slideshow images/large/slideshow_phone.png"></div>		
-		<div><img class="cjoCarouselImage" src="$urlbase/images/Slideshow images/slideshow_sink.png" data-large="$urlbase/images/Slideshow images/large/slideshow_sink.png"></div>		
+		<div><img class="cjoCarouselImage" src="$urlbase/images/Slideshow images/slideshow_phone.png" data-large="$urlbase/images/Slideshow images/large/slideshow_electronic-key-system.png"></div>		
+		<div><img class="cjoCarouselImage" src="$urlbase/images/Slideshow images/slideshow_sink.png" data-large="$urlbase/images/Slideshow images/large/slideshow_faucet.png"></div>		
 		<div><img class="cjoCarouselImage" src="$urlbase/images/Slideshow images/slideshow_drain.png" data-large="$urlbase/images/Slideshow images/large/slideshow_drain.png"></div>		
 		<div><img class="cjoCarouselImage" src="$urlbase/images/Slideshow images/slideshow_white-object.png" data-large="$urlbase/images/Slideshow images/large/slideshow_white-object.png"></div>	
 		<div><img class="cjoCarouselImage" src="$urlbase/images/Slideshow images/slideshow_water-heater.png" data-large="$urlbase/images/Slideshow images/large/slideshow_water-heater.png"></div>		
@@ -1630,7 +1630,7 @@ function upload_resume_form()
 				<div style="display:inline-block;">
 					<input type="file" name="resumeFile" id="cjoPopupFormResumeFile" class="cjoPopupFormResumeInput" style="width: 0.1px; height: 0.1px; opacity: 0; overflow: hidden; position: absolute; z-index: -1;"/>
 
-					<div class="cjoPopupFormStepButton"><label id="cjoLabel" for="cjoPopupFormResumeFile">Choose a file</label></div>
+					<div class="cjoPopupFormStepButton cjoUploadButton" ><label id="cjoLabel" for="cjoPopupFormResumeFile" style="cursor: pointer;">Choose a file</label></div>
 				</div>
 				<br>
 				<div style="width: 100%;">
