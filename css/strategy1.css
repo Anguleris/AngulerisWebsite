@@ -20,7 +20,9 @@ body{background: none;}
 		
 .cjoStriveForText{color: #999; background-color: #f2f2f2; padding-top: 20px;}
 .cjoStriveForImageContainer{padding-left: 40px;}
-.cjoMainInfoThisNotThatImage{display: block; width: 200px; margin:auto;}
+.cjoThisNotThatContainer{margin:auto; display: block; width: 265px; padding-right: 25px; font-size: 130%;}
+.cjoThisNotThatImageContainer{text-align: center; display: inline-block; width: 49%;}
+.cjoMainInfoThisNotThatImage{display: block; width: 115px;}
 .cjoStriveForTitle{padding-left: 24px; padding-top: 40px;}
 .cjoThisText{position: absolute; top: 85%; left:20%; font-size: 140%;}
 		
@@ -42,7 +44,8 @@ body{background: none;}
 
 	.cjoStriveForImageContainer{position: relative; padding-top: 20px;}
 	.cjoStriveForTitle{padding-left: 22px; padding-top: 40px;}
-	.cjoMainInfoThisNotThatImage{width: 330px; /*height: 130px*/; position: absolute; right: 0px; top: 50%; margin-top: -175px;}
+	.cjoThisNotThatContainer{padding-right: 0px; width: 310px;}
+	.cjoMainInfoThisNotThatImage{width: 150px;}
 			
 	#cjoBimTowerContainer{padding-top: 120px; padding-bottom: 120px;}
 	.cjoBimTowerImage{width: 600px;}
@@ -67,6 +70,9 @@ body{background: none;}
 @media screen and (min-width: 992px)
 {
 	.cjoContentText{padding-top: 50px; padding-bottom: 20px; min-height: 250px; max-width: 290px;}
+
+	.cjoThisNotThatContainer{width: 360px;}
+	.cjoMainInfoThisNotThatImage{width: 175px;}
 			
 	#cjoBottomInfoContainer{font-size: 170%;}
 	#cjoLittleBlueBanner{width: 350px;}

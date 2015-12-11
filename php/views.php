@@ -651,7 +651,14 @@ function strategy_page_view()
 		<div class="cjoMainInfoTitle cjoStriveForTitle">WE STRIVE FOR</div>
 		<div class="row">
 			<div class="col-sm-6 col-sm-push-6 cjoStriveForImageContainer cjoRow4Match">
-				<img class="cjoMainInfoThisNotThatImage" src="$urlbase/images/icons/icon_this-not-this_text.png">
+				<div class="cjoThisNotThatContainer">
+					<div class="cjoThisNotThatImageContainer">
+						<img src="$urlbase/images/icons/This-not-this_playbook.png" class="cjoMainInfoThisNotThatImage"><br>THIS
+					</div>
+					<div class="cjoThisNotThatImageContainer">
+						<img src="$urlbase/images/icons/This-not-this_checkbox.png" class="cjoMainInfoThisNotThatImage"><br>NOT THIS
+					</div>
+				</div>
 			</div>
 			<div class="col-sm-6 col-sm-pull-6 cjoMainInfoTextBlock cjoStriveForText cjoRow4Match">
 				A good BIM strategy is much more than simply checking the box to say you have Revit files. The 
