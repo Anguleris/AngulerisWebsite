@@ -482,7 +482,7 @@ function home_page_view()
 				<img class="cjoRevitImage" src="$urlbase/images/icons/icon_revit-purple.png">
 			</div>
 			<div class="col-sm-9 cjoRevitTextBlock" style="margin:-15px;">
-					Revit is our jam, we're all <strike>recovering</strike> former architects and we love building product manufacturers. Its a match made in heaven. Talk to us about how leverage our industry experience with BIM to help you drive new revenues for your product while being closer than ever to the design process.
+					Revit is our jam, we're all <strike>recovering</strike> former architects and we love building product manufacturers. It's a match made in heaven. Talk to us about how to leverage our industry experience with BIM to help you drive new revenues for your product while being closer than ever to the design process.
 			</div>
 
 		</div>
