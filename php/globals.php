@@ -11,29 +11,29 @@ $urlSpinnRoute = "http://360spinner.com";
 
 //CSS RELATIVE PATHS
 $cssFilePaths = array(
-	"main"=>"css/main1.css",
-	"index"=>"css/index2.css",
-	"strategy"=>"css/strategy2.css",
-	"video"=>"css/video2.css",
-	"visualization"=>"css/visualization1.css",
-	"training"=>"css/training1.css",
-	"contact"=>"css/contact1.css",
+	"main"=>"css/main3.css",
+	"index"=>"css/index3.css",
+	"strategy"=>"css/strategy3.css",
+	"video"=>"css/video3.css",
+	"visualization"=>"css/visualization3.css",
+	"training"=>"css/training3.css",
+	"contact"=>"css/contact3.css",
 	"spinn"=>"css/spinn1.css"
 );
 //JAVASCRIPT RELATIVE FILE PATHS
 $javascriptFilePaths = array(
-	"main"=>"js/main1.js",
-	"index"=>"js/index1.js",
-	"strategy"=>"js/strategy1.js",
-	"variableInputWidth"=>"js/cjoVariableInputWidth1.js",
-	"slideShowExtend"=>"js/slideshowExtend2.js",
-	"getQuote"=>"js/getQuote1.js",
-	"visualization"=>"js/visualization1.js",
-	"video"=>"js/video1.js",
-	"training"=>"js/training1.js",
-	"contact"=>"js/contact1.js",
-	"uploadResume"=>"js/uploadResume1.js",
-	"spinn"=>"js/spinn1.js"
+	"main"=>"js/main3.js",
+	"index"=>"js/index3.js",
+	"strategy"=>"js/strategy3.js",
+	"variableInputWidth"=>"js/cjoVariableInputWidth3.js",
+	"slideShowExtend"=>"js/slideshowExtend3.js",
+	"getQuote"=>"js/getQuote3.js",
+	"visualization"=>"js/visualization3.js",
+	"video"=>"js/video3.js",
+	"training"=>"js/training3.js",
+	"contact"=>"js/contact3.js",
+	"uploadResume"=>"js/uploadResume3.js",
+	"spinn"=>"js/spinn3.js"
 );
 
 ?>

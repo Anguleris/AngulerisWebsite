@@ -617,8 +617,8 @@ function strategy_page_view()
 					</div>
 					<div class="cjoMainInfoLinks">
 						<a href="http://seek.autodesk.com/" target="_blank">Browse Autodesk Seek</a><br><br>
-						<a href="$urlVideoRoute" target="_blank">Promote your BIM Strategy with a Video</a><br><br>
-						<a href="$urlVideoRoute" target="_blank">Video Marketing for BIM Strategies</a>
+						<a href="$urlVideoRoute">Promote your BIM Strategy with a Video</a><br><br>
+						<a href="$urlVideoRoute">Video Marketing for BIM Strategies</a>
 					</div>
 				</div>
 			</div>
@@ -1307,9 +1307,7 @@ function upload_resume_form()
 				<br>
 				<span>Phone<span class="cjoRequiredAsterisk">*</span></span>
 				<div class="cjoFormInput">
-					<input id="cjoFormPhone1" name="phone1" type="text" class="cjoPopupFormInput cjoPopupFormPhoneNumber" maxlength="3" placeholder="###" data-required="true"> -
-					<input id="cjoFormPhone2" name="phone2" type="text" class="cjoPopupFormInput cjoPopupFormPhoneNumber" maxlength="3" placeholder="###" data-required="true"> -
-					<input id="cjoFormPhone3" name="phone3" type="text" class="cjoPopupFormInput cjoPopupFormPhoneNumber" maxlength="4" placeholder="####" data-required="true">
+					<input id="cjoFormPhone1" name="phone1" type="text" class="cjoPopupFormInput cjoPopupFormPhoneNumber" maxlength="3" placeholder="###" data-required="true"> - <input id="cjoFormPhone2" name="phone2" type="text" class="cjoPopupFormInput cjoPopupFormPhoneNumber" maxlength="3" placeholder="###" data-required="true"> - <input id="cjoFormPhone3" name="phone3" type="text" class="cjoPopupFormInput cjoPopupFormPhoneNumber" maxlength="4" placeholder="####" data-required="true">
 				</div>
 				<br>
 				<span class="cjoPopupFormLabel">Email<span class="cjoRequiredAsterisk">*</span></span>
