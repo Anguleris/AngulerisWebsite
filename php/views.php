@@ -5,6 +5,7 @@ require_once("php/globals.php");
 function display_footer($scripts)
 {
 	global $urlbase;
+	$year = date("Y");
 	echo<<<_END
 <div class="container visible-xs cjoMobileFooter">
 	©2015 Anguleris Technologies - All rights reserved
@@ -22,7 +23,7 @@ function display_footer($scripts)
 					<a href="https://plus.google.com/109532662513753771690/about" target="_blank"><img class="cjoMobileSocialMediaLink" src="$urlbase/images/socialMediaLinks/google.png"></a>
 				</div>
 			</div>
-			<div class="col-md-6 col-md-pull-6 cjoFooterColumn cjoFooterCopyright">©2015 Anguleris Technologies - All rights reserved</div>
+			<div class="col-md-6 col-md-pull-6 cjoFooterColumn cjoFooterCopyright">©$year Anguleris Technologies - All rights reserved</div>
 		</div>
 	</div>
 </div>
@@ -1137,12 +1138,11 @@ function contact_page_view()
 		environment, and the freedom to use creativity and innovation to achieve amazing
 		results.
 <br><br>We are always hiring, so if you are interested in joining our team, fill out our inquiry form <span id="cjoLittleBlueBanner"><u>here.</u></span>
+	</div>
 		
 _END;
 	upload_resume_form();
 	echo<<<_END
-	
-	</div>
 	
 </div>
 
